@@ -1,0 +1,164 @@
+
+
+.footer-img {
+    width: 100%;
+}
+
+.footer-help-text {
+    font-weight: 500;
+    color: #555;
+    line-height: 1.4;
+    font-size: 17px;
+}
+
+.footer-help-text span {
+    color: #555;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.copy_right{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.t_footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.social-icons i {
+    font-size: 30px;
+    color: #555;
+}
+
+.payment-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer .btn-warning {
+    background: #FB8F40;
+    background: linear-gradient(270deg, rgba(251, 143, 64, 1) 0%, rgba(227, 181, 55, 1) 100%);
+    border: none;
+    transition: 0.3s;
+    margin-top: 1rem;
+}
+
+.footer .btn-warning:hover {
+    background: #d18b00;
+}
+
+
+.btc {
+    position: absolute;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 8px 22px;
+    right: 0;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.footer-links h6 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #555;
+    font-size: 15px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.news_letter h5 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #555;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 15px;
+}
+
+.news_letter .para {
+    font-size: 15px;
+}
+
+.footer-links ul li a:hover {
+    color: #f9a825;
+}
+
+.footer-logo {
+    font-weight: 800;
+    font-size: 28px;
+    color: #111;
+}
+
+.footer-logo span {
+    color: #0d6efd;
+}
+
+.footer-tagline {
+    font-size: 14px;
+    color: #666;
+}
+
+.social-icons a {
+    color: #111;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #f9a825;
+}
+
+.payment-icons img {
+    width: 45px;
+    margin: 5px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    color: #888;
+    font-size: 14px;
+}
+
+.footer-form {
+    position: relative;
+}
+
+
+@media (max-width: 768px) {
+    .footer-form {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer .btn-dark {
+        width: 100%;
+    }
+
+    .footer-links {
+        text-align: center;
+    }
+}
