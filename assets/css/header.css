@@ -31,6 +31,47 @@
      font-size: 16px;
  }
 
+
+ .dropdown-item:focus,
+ .dropdown-item:hover {
+     color: #fff;
+     background-color: var(--primary-color);
+     transition: 0.4s all ease;
+ }
+
+ .top-offer .countdown span b {
+     color: #fff;
+     font-weight: 700;
+     padding-right: 5px;
+     font-size: 15px;
+ }
+
+ .top-offer .countdown span small {
+     color: #fff;
+     font-weight: 800;
+     font-size: 8px;
+ }
+
+ #topOffer {
+     position: relative;
+ }
+
+ #topOffer::after {
+     content: '';
+     position: absolute;
+     top: 0px;
+     left: 50%;
+     transform: translateX(-98%);
+     width: 33px;
+     height: 100%;
+     background-color: #ff7f2a;
+     clip-path: polygon(100% 2%, 0% 100%, 100% 100%);
+ }
+
+
+
+
+
  .top-offer .right {
      flex: 1;
      background: #ff7f2a;
@@ -41,18 +82,6 @@
      font-size: 16px;
  }
 
- /* .top-offer .right::after{
-    content: '';
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 45px;
-    height: 100%;
-    position: absolute;
-    background-color: var(--orange-color);
-    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
- } */
 
 
 
@@ -80,12 +109,63 @@
      padding: 10px 15px;
      transition: color 0.3s;
      font-size: 16px;
+
  }
 
  .navbar-nav .nav-link.active,
  .navbar-nav .nav-link:hover {
      color: #ff7f2a !important;
+     border-bottom: 2px solid var(--orange-color);
  }
+
+ /* Base Dropdown Style */
+ .dropdown-menu {
+     display: block;
+     opacity: 0;
+     visibility: hidden;
+     transform: translateY(10px);
+     transition: all 0.3s ease;
+     margin-top: 0;
+     font-size: 15px;
+ }
+
+ /* Hover Effect (Main Dropdown) */
+ .dropdown:hover>.dropdown-menu {
+     opacity: 1;
+     visibility: visible;
+     transform: translateY(0);
+ }
+
+ /* Submenu support */
+ .dropdown-item.dropdown-toggle {
+     position: relative;
+ }
+
+ .dropdown-item.dropdown-toggle::after {
+     content: "›";
+     float: right;
+     transform: rotate(90deg);
+     margin-left: 8px;
+ }
+
+ /* Submenu dropdown */
+ .dropdown .dropdown-menu .dropdown-menu {
+     top: 0;
+     left: 100%;
+     margin-left: 0.5rem;
+     transform: translateY(10px);
+     opacity: 0;
+     visibility: hidden;
+     transition: all 0.3s ease;
+ }
+
+ /* Hover submenu open */
+ .dropdown-menu>.dropdown:hover>.dropdown-menu {
+     opacity: 1;
+     visibility: visible;
+     transform: translateY(0);
+ }
+
 
  /* Buttons */
  .btn-outline {
@@ -97,7 +177,7 @@
      align-items: center;
      gap: 6px;
      transition: all 0.3s ease;
-     color: #333;
+     color: var(--primary-color);
      text-decoration: none;
      font-size: 16px;
  }
