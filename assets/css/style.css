@@ -874,16 +874,23 @@ a:hover {
 
 
 
-/* .comparison-section .headline span {
-    font-size: 50px;
-    font-weight: 900;
-    margin-bottom: 0.5rem;
-    text-transform: uppercase;
-} */
 
 /* ---------- TABLE ---------- */
+.comparison-section {
+    background: #fdfdfd;
+    text-align: center;
+}
+
+.headline {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
 .table-wrapper {
     overflow-x: auto;
+    border-radius: 16px;
+    margin-top: 30px;
 }
 
 table {
@@ -891,8 +898,10 @@ table {
     border-collapse: collapse;
     background: #fff;
     border-radius: 16px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.06);
     overflow: hidden;
+    border: 1px solid #000;
+
 }
 
 th,
@@ -906,21 +915,56 @@ td {
 th:first-child,
 td:first-child {
     text-align: left;
+    font-weight: 600;
+    color: #222;
 }
 
 tbody tr:nth-child(even) {
     background-color: #f9fafb;
 }
 
-/* ---------- ICON COLORS ---------- */
+/* ✅ 3D Highlighted HEXRAA Column */
+.comparison-section th:nth-child(2),
+.comparison-section td:nth-child(2) {
+    background: linear-gradient(145deg, #f4faff, #e8f3ff);
+
+    font-weight: 600;
+    position: relative;
+    transition: all 0.3s ease;
+    border-left: 2px solid rgba(0, 0, 0, 0.05);
+    border-right: 2px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 6px 15px rgba(0, 108, 255, 0.18);
+}
+
+
+/* Rounded corners top + bottom */
+.comparison-section thead tr th:nth-child(2) {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.comparison-section tbody tr:last-child td:nth-child(2) {
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+/* Hover lift for 3D effect */
+.comparison-section td:nth-child(2):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0, 108, 255, 0.28);
+}
+
+/* ✅ Icon Colors */
 .fa-check {
     color: #00b67a;
     font-weight: 700;
+    font-size: 18px;
 }
 
 .fa-xmark {
     color: #ff4c4c;
     font-weight: 700;
+    font-size: 18px;
 }
 
 span {
@@ -928,37 +972,16 @@ span {
     color: #888;
 }
 
-/* ---------- ACTIVE COLUMN (HEXRAA) ---------- */
-.comparison-section th:nth-child(2),
-.comparison-section td:nth-child(2) {
-    background: #f4faff;
-    color: #006eff;
-    font-weight: 600;
-    position: relative;
-    transition: all 0.3s ease;
-    border-left: 2px solid rgba(0, 0, 0, 0.05);
-    border-right: 2px solid rgba(0, 0, 0, 0.05);
-    box-shadow: 0 0 10px rgba(0, 108, 255, 0.12);
+@media (max-width: 767px) {
+    table {
+        font-size: 13px;
+    }
+
+    th img {
+        width: 65px;
+    }
 }
 
-/* Rounded edges for smooth card look */
-.comparison-section tr:first-child th:nth-child(2) {
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-}
-
-.comparison-section tr:last-child td:nth-child(2) {
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-}
-
-/* ---------- HOVER EFFECT ---------- */
-.comparison-section th:nth-child(2):hover,
-.comparison-section td:nth-child(2):hover {
-    box-shadow: 0 0 25px rgba(0, 108, 255, 0.25);
-    transform: translateY(-2px);
-    z-index: 2;
-}
 
 /* ---------- OPTIONAL: Subtle hover on entire row ---------- */
 .comparison-section tr:hover td {
@@ -1025,4 +1048,289 @@ span {
 .back-to-top:hover {
     background: var(--primary-color);
     color: #ffffff;
+}
+
+/* *********why-choose-section ******  */
+
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* align-items: center; */
+}
+
+
+.why-center img {
+    width: 88%;
+    margin: 0 auto 3rem;
+    display: flex;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+.grid_items {
+    display: flex;
+    gap: 75px;
+    flex-direction: column;
+    position: relative;
+}
+
+.why-item h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    align-items: center;
+    text-align: right;
+    color: #525252;
+    margin-bottom: 0.3rem;
+
+
+}
+
+.why-item p {
+    font-size: 14px;
+}
+
+.fast {
+    position: relative;
+    left: 8rem;
+}
+
+.third {
+    position: relative;
+    left: 8rem;
+}
+
+.third p {
+    text-align: right !important;
+
+}
+
+.fast p {
+    text-align: right !important;
+}
+
+.secound {
+    position: relative;
+    right: 8rem;
+
+}
+
+.fourth {
+    position: relative;
+    right: 8rem;
+    margin-top: 1rem;
+
+}
+
+.fourth h3 {
+
+    text-align: left;
+
+}
+
+.secound h3 {
+    text-align: left;
+
+}
+
+.fc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.commit h3 {
+    text-align: left !important;
+}
+
+.commit_2 h3,
+.commit_2 p {
+    text-align: right !important;
+}
+
+/* ********** hosting-section ******** */
+
+
+
+
+
+.ph-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/* Left Illustration */
+.ph-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.ph-left img {
+    width: 132%;
+
+}
+
+
+/* Right Cards */
+.ph-right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+
+
+.ph-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 25px 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+}
+
+.ph-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    z-index: 1;
+}
+
+.ph-blue {
+    background: #007bff;
+}
+
+.ph-teal {
+    background: #00a7b5;
+}
+
+.ph-orange {
+    background: #ec6325;
+}
+
+.ph-content h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 0.4rem;
+    display: flex;
+    align-items: center;
+    color: #525252;
+}
+
+.ph-content p {
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+/* ********** Contact Page section ***  */
+/* ==== CONTACT SECTION ==== */
+.inner-section {
+    padding: 80px 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+}
+
+
+
+.contact-box {
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px 20px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+
+}
+
+
+
+.contact-box h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+
+    color: #4B4B4B;
+
+
+}
+
+.contact-box p {
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #4B4B4B;
+    margin-bottom: 0.6rem;
+
+
+}
+
+.contact-box .btn {
+    background: #FB8F40;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: #fff;
+    width: 100%;
+
+}
+
+.contact-box .btn:hover {
+    background: #e96b00;
+}
+
+.contact-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.contact-img {
+    text-align: center;
+}
+
+.contact-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.inner_headline {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 0.6rem;
+    color: var(--primary-color);
+}
+
+.inner_para {
+    font-size: 18px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 25px;
+    color: #4B4B4B;
 }
