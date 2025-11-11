@@ -186,3 +186,4 @@ $('.back-to-top').click(function (e) {
         scrollTop: 0
     }, 600);
 });
+

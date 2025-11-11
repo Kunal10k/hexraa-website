@@ -21,6 +21,7 @@
     --orange-color: #FB8F40;
     --deep_blue: #1E1D4C;
     --banner-top-header: #14183EBF;
+    --gradint: linear-gradient(270deg, rgba(251, 143, 64, 1) 0%, rgba(227, 181, 55, 1) 100%);
 }
 
 body {
@@ -1261,11 +1262,14 @@ span {
 
 
 .contact-box {
-    background: #fff;
-    border-radius: 12px;
-    padding: 25px 20px;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
     transition: all 0.3s ease;
+    padding: 15px;
 
 }
 
@@ -1293,13 +1297,21 @@ span {
 
 }
 
+.inner_img {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
 .contact-box .btn {
     background: #FB8F40;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     color: #fff;
     width: 100%;
-
+    padding: 11px 10px;
+    font-weight: 600;
+    font-size: 17px;
 }
 
 .contact-box .btn:hover {
@@ -1333,4 +1345,311 @@ span {
     font-size: 28px;
     line-height: 25px;
     color: #4B4B4B;
+}
+
+.contact-box img {
+    margin-left: auto;
+    display: flex;
+}
+
+.histing_flex_items {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.histing_flex_items ul li {
+    padding-bottom: 14px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #1E1D4C;
+
+
+
+}
+
+.hosting_inner_section p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #6E6E6E;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+}
+
+.histing_flex_items ul li img {
+    margin-right: 10px;
+
+}
+
+.inner_subheadline {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 1.5rem;
+    text-align: left !important;
+    color: #6E6E6E;
+
+
+}
+
+.inner_headline_hsoting {
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 55px;
+
+    text-transform: uppercase;
+
+    color: #14183E;
+
+
+}
+
+.view_all_palans {
+
+    filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.2));
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-block;
+    color: #FFF;
+
+    background: linear-gradient(270deg, rgba(251, 143, 64, 1) 0%, rgba(227, 181, 55, 1) 100%);
+
+    padding: 12PX 22PX;
+    margin-top: 0.8rem;
+    border-radius: 5px;
+}
+
+.hosting-sections_page {
+
+    position: relative;
+}
+
+.hosting-sections_page::after {
+
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(../img/hosting/overlay.png);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.1;
+}
+
+.count_flex {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    max-width: 360px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 2px solid #14183e50;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.hosting-sections_page .container {
+    position: relative;
+    z-index: 99;
+}
+
+.hosting_inner_section h6 {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+
+    color: #014073;
+    text-align: center;
+    margin-bottom: .5rem;
+
+
+}
+
+.numbers {
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 25px;
+    margin-bottom: 0.3rem;
+    color: #014073;
+
+
+}
+
+.box span {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 25px;
+    text-align: center;
+    color: #014073;
+
+
+}
+
+.student_sub {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 55px;
+
+    text-align: center;
+
+    color: #4B4B4B;
+
+
+}
+
+
+.student_web_hosting p {
+
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    text-align: center;
+
+    color: #4B4B4B;
+
+
+}
+
+.student_web_wrapper {
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.shadws {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+
+
+
+.rate p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    color: #4B4B4B;
+
+
+
+
+}
+
+.rate h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 0.5rem;
+
+
+}
+
+.price_tract {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.price h6 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 25px;
+    color: #014073;
+}
+
+.price h6 span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #014073;
+
+
+
+
+}
+
+.discount {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 25px;
+    color: #6E6E6E;
+    margin-top: 1rem;
+}
+
+.student_buy_now {
+    background: var(--orange-color);
+    display: inline-block;
+    margin: 5px 0 10px 0;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px 22px;
+    width: 100%;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.student_planed label {
+    text-align: center !important;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #4B4B4B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.student_items ul li i {
+    height: 16px;
+    padding-right: 0.4rem;
+
+
+}
+
+.student_items ul li {
+
+    padding-bottom: 8px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+
+
+    color: #4B4B4B;
+
+
+
+
+
+
+}
+
+.student_items {
+    display: grid;
+    gap: 15px;
+    margin-top: 1rem;
+    grid-template-columns: repeat(2, 1fr);
 }

@@ -20,7 +20,7 @@
                 <div class="row g-3">
                     <div class="col-md-4">
                         <div class="contact-box shadow">
-                            <i class="fa-solid fa-briefcase"></i>
+                            <img src="assets/img/contact/i1.png" alt="" width="30" class="mb-2">
                             <h5>Sales</h5>
                             <p>sales@hexraa.com</p>
                             <a href="mailto:sales@hexraa.com" class="btn btn-sm">Contact Sales</a>
@@ -29,7 +29,8 @@
 
                     <div class="col-md-4">
                         <div class="contact-box shadow">
-                            <i class="fa-solid fa-receipt"></i>
+                            <img src="assets/img/contact/i2.png" alt="" width="30" class="mb-2">
+
                             <h5>Billing</h5>
                             <p>billing@hexraa.com</p>
                             <a href="mailto:billing@hexraa.com" class="btn btn-sm">Contact Sales</a>
@@ -38,7 +39,8 @@
 
                     <div class="col-md-4">
                         <div class="contact-box shadow">
-                            <i class="fa-solid fa-headset"></i>
+                            <img src="assets/img/contact/i3.png" alt="" width="30" class="mb-2">
+
                             <h5>Support</h5>
                             <p>support@hexraa.com</p>
                             <a href="mailto:support@hexraa.com" class="btn btn-sm">Contact Support</a>
@@ -49,8 +51,7 @@
 
             <!-- Right Side Image -->
             <div class="col-lg-5 contact-img">
-                <img src="assets/img/contact/inner.png"
-                    alt="Contact illustration">
+                <img src="assets/img/contact/inner.png" alt="Contact illustration">
             </div>
 
         </div>

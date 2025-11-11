@@ -17,7 +17,7 @@
  }
 
  .border_outline_ns {
-     border: 2px solid var(--primary-color) !important;
+     border: 1px solid var(--primary-color) !important;
      color: var(--primary-color !important);
  }
 
