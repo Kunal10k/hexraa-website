@@ -1,27 +1,30 @@
 <?php include 'subpages/header.php'; ?>
 
+
 <section class="hosting-sections_page global_padding">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <div class="hosting_inner_section">
-                    <h6 class="inner_subheadline">Up to 67% Off Web Hosting</h6>
-                    <h2 class="inner_headline_hsoting">Best Hosting For Students</h2>
+                    <h6 class="inner_subheadline">Up to 97% Off Web Hosting</h6>
+                    <h2 class="inner_headline_hsoting">cPanel Reseller Hosting</h2>
                     <p>Start, Grow, and Expand Smartly !</p>
                     <div class="hosting_flex">
                         <div class="histing_flex_items">
                             <ul>
-                                <li> <img src="assets/img/hosting/tabler_checkbox.png" width="20" alt="">1GB SSD Disk
+                                <li> <img src="assets/img/hosting/tabler_checkbox.png" width="20" alt="">100% White
+                                    Labeled
                                 </li>
-                                <li> <img src="assets/img/hosting/tabler_checkbox.png" width="20" alt="">Email Accounts
-                                </li>
+
                             </ul>
                             <ul>
-                                <li> <img src="assets/img/hosting/tabler_checkbox.png" width="20" alt="">10GB Bandwidth
+
+                                <li> <img src="assets/img/hosting/tabler_checkbox.png" width="20" alt="">Agencies and
+                                    Developers
                                 </li>
-                                <li> <img src="assets/img/hosting/tabler_checkbox.png" width="20" alt="">Control Panel
-                                    cPanel</li>
                             </ul>
+
+
                         </div>
                     </div>
 
@@ -31,7 +34,7 @@
 
             <div class="col-md-6">
                 <div class="hosting_inner_section">
-                    <img src="assets/img/hosting/inner_abt.png" alt="" class="img-fluid inner_img">
+                    <img src="assets/img/reseller-hosting/hero.webp" alt="" class="img-fluid inner_img">
                     <h6>Deal Ends In</h6>
                     <div class="count_inner">
                         <div class="count_flex">
@@ -65,60 +68,69 @@
 </section>
 
 
-<section class="student_web_hosting global_padding">
+
+<section class="core_adv global_padding text-center">
     <div class="container">
-        <h2 class="headline text-center pb-0">Student Web Hosting</h2>
-        <h4 class="student_sub pb-0">We empower the student community to build their blog or website</h4>
-        <p class="w-75 m-auto">
-            Student Hosting is a initiative with the aid of using Hexraa to empower the Students fraternity to have
-            their personal blog / personal / portfolio website. During their commencement we need college students to
-            analyze and sharpen their internet development, internet design, and virtual advertising capabilities that
-            is a lot wanted on this aggressive world.
-        </p>
-        <div class="row mt-5">
-            <div class="col-md-6">
-                <div class="student_web_wrapper">
-                    <img src="assets/img/hosting/1.png" alt="" class="img-fluid">
+        <h2 class=" headline mb-4">the <span>core advantages</span></h2>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="core_adv_wrapper">
+                    <div class="core_icon">
+                        <img src="assets/img/reseller-hosting/cloud_linux.svg" alt="Cloud Linux OS Icon">
+                    </div>
+                    <div class="core_headline">
+                        <h5>Cloud Linux OS</h5>
+                        <p class="para">
+                            The Cloud Linux OS, is compatible with cPanel, and enables the users with all the effective
+                            resource usage and better server stability.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="student_web_wrapper shadws">
-                    <div class="student_planed">
-                        <div class="price_tract mt-4 mb-3">
-                            <div class="rate">
-                                <h2>Student Plan</h2>
-                                <p>Affordable hosting solution for college projects and learning.</p>
-                            </div>
-                            <div class="price_box">
-                                <div class="price">
-                                    <h6>$8 <span>/year</span></h6>
 
-                                </div>
-                                <div class="discount">
-                                    $12
-                                    <div class="save"><i class="fa-solid fa-tag"></i> save 93%</div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="col-md-3">
+                <div class="core_adv_wrapper">
+                    <div class="core_icon">
+                        <img src="assets/img/reseller-hosting/cpanel_guardwall.svg" alt="cP Guard Firewall Icon">
+                    </div>
+                    <div class="core_headline">
+                        <h5>cP Guard Firewall</h5>
+                        <p class="para">
+                            The hosting service has an inclusion of a security software called cP Guard, which is
+                            installed
+                            in our hosting servers.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-                        <a href="#" class="student_buy_now shadow">Buy Now</a>
+            <div class="col-md-3">
+                <div class="core_adv_wrapper">
+                    <div class="core_icon">
+                        <img src="assets/img/reseller-hosting/litespeed_server.svg" alt="LiteSpeed Web Server Icon">
+                    </div>
+                    <div class="core_headline">
+                        <h5>LiteSpeed Web Server</h5>
+                        <p class="para">
+                            The servers are configured to use LiteSpeed, which showcases the website loads, bandwidth
+                            etc much quickly. Thereby letting multiple concurrencies.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-                        <label for="">Whats Included</label>
-
-                        <div class="benefits_Student_flex">
-                            <div class="student_items">
-                                <ul>
-                                    <li><i class="fa-solid fa-globe"></i> 1 Host Domain</li>
-                                    <li><i class="fa-solid fa-envelope"></i> 2 Email Accounts</li>
-                                    <li><i class="fa-solid fa-hard-drive"></i> 2GB SSD Disk Space</li>
-                                </ul>
-                                <ul>
-                                    <li><i class="fa-solid fa-infinity"></i> Unlimited Bandwidth</li>
-                                    <li><i class="fa-solid fa-code"></i> PHP 7.x, 8.x, Softaculous</li>
-                                    <li><i class="fa-solid fa-gauge-high"></i> cPanel Control Panel</li>
-                                </ul>
-                            </div>
-                        </div>
+            <div class="col-md-3">
+                <div class="core_adv_wrapper">
+                    <div class="core_icon">
+                        <img src="assets/img/reseller-hosting/freea_migration.svg" alt="Free Migrations Icon">
+                    </div>
+                    <div class="core_headline">
+                        <h5>Free Migrations</h5>
+                        <p class="para">
+                            When you are with us, we can further assist you with any type of migrations and further help
+                            you with the technical support required.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -127,84 +139,27 @@
 </section>
 
 
-
-<section class="global_padding student_features pt-0">
+<div class="money_grenty pt-5">
     <div class="container">
-        <h2 class="headline text-center">student <span>hosting features</span></h2>
+        <div class="money_grid">
+            <div class="money_img">
 
-        <div class="student_features_grid ">
-            <div class="stud_fet_items">
-                <div class="icon_feature">
-                    <img src="assets/img/hosting/v (1).webp" alt="">
-                </div>
-                <div class="student_headline">
-                    <h4>Free SSL Certificates</h4>
-                    <p>SSL is the major ranking factor, and we at Hexraa provide you with free SSL certificates with all
-                        shared web hosting plans.</p>
-                </div>
+                <img src="assets/img/hosting/Group 1750.png" alt="">
             </div>
-
-            <div class="stud_fet_items">
-                <div class="icon_feature">
-                    <img src="assets/img/hosting/v (2).webp" alt="">
-
-                </div>
-                <div class="student_headline">
-                    <h4>24/7 Live Support</h4>
-                    <p>Contact us for support queries through email, tickets, or live chat and we'll resolve them in no
-                        time!</p>
-                </div>
-            </div>
-
-            <div class="stud_fet_items">
-                <div class="icon_feature">
-                    <img src="assets/img/hosting/v (3).webp" alt="">
-
-                </div>
-                <div class="student_headline">
-                    <h4>99.9% Server Uptime</h4>
-                    <p>We promise a high level of service availability and stability. We'll pay you account credits for
-                        downtime if your site is offline for even a few minutes owing to a malfunction...</p>
-                </div>
-            </div>
-
-            <div class="stud_fet_items">
-                <div class="icon_feature">
-                    <img src="assets/img/hosting/v (4).webp" alt="">
-
-                </div>
-                <div class="student_headline">
-                    <h4>Malware Protection</h4>
-                    <p>Get free virus and malware protection with Hexraa's shared hosting. When files are uploaded to
-                        the website, they are scanned automatically.</p>
-                </div>
+            <div class="money_content">
+                <h4> 30-Days Money-back Guarantee</h4>
+                <p>Let's choose worry-free hosting with Hexraa! We're thrilled to offer a 30-day money-back
+                    guarantee,
+                    ensuring your complete satisfaction with our web hosting services. If for any reason you're not
+                    satisfied within the first 30 days of signing up, simply let us know, and we'll refund your
+                    hosting
+                    fees. With our commitment to providing top-notch hosting solutions, we're confident you'll love
+                    what
+                    Hexraa has to offer.</p>
             </div>
         </div>
     </div>
-
-    <div class="money_grenty pt-5">
-        <div class="container">
-            <div class="money_grid">
-                <div class="money_img">
-
-                    <img src="assets/img/hosting/Group 1750.png" alt="">
-                </div>
-                <div class="money_content">
-                    <h4> 30-Days Money-back Guarantee</h4>
-                    <p>Let's choose worry-free hosting with Hexraa! We're thrilled to offer a 30-day money-back
-                        guarantee,
-                        ensuring your complete satisfaction with our web hosting services. If for any reason you're not
-                        satisfied within the first 30 days of signing up, simply let us know, and we'll refund your
-                        hosting
-                        fees. With our commitment to providing top-notch hosting solutions, we're confident you'll love
-                        what
-                        Hexraa has to offer.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
+</div>
 
 <section class="hosting_blog global_padding">
     <div class="container">
@@ -271,13 +226,13 @@
         </div>
 
         <div class="faq-grid mt-4">
-        
 
-      
+
+
 
             <div class="faq-item">
                 <button class="faq-question">
-                   Can I migrate my website to your shared web hosting?<span class="toggle">+</span>
+                    Can I migrate my website to your shared web hosting?<span class="toggle">+</span>
                 </button>
                 <div class="faq-answer">We use trusted payment gateways and encryption to protect your payment
                     details
@@ -286,7 +241,7 @@
             </div>
             <div class="faq-item">
                 <button class="faq-question">
-                   Can I migrate my website to your shared web hosting?<span class="toggle">+</span>
+                    Can I migrate my website to your shared web hosting?<span class="toggle">+</span>
                 </button>
                 <div class="faq-answer">We use trusted payment gateways and encryption to protect your payment
                     details
@@ -295,7 +250,7 @@
             </div>
             <div class="faq-item">
                 <button class="faq-question">
-                   Can I migrate my website to your shared web hosting?<span class="toggle">+</span>
+                    Can I migrate my website to your shared web hosting?<span class="toggle">+</span>
                 </button>
                 <div class="faq-answer">We use trusted payment gateways and encryption to protect your payment
                     details
@@ -314,7 +269,7 @@
             </div>
             <div class="faq-item">
                 <button class="faq-question">
-                 Lorem ipsum dolor set amet?<span class="toggle">+</span>
+                    Lorem ipsum dolor set amet?<span class="toggle">+</span>
                 </button>
                 <div class="faq-answer">You can contact support via our Help Center, email, or call. We usually
                     reply
@@ -323,7 +278,7 @@
             </div>
             <div class="faq-item">
                 <button class="faq-question">
-                   Is shared hosting good for blogs?<span class="toggle">+</span>
+                    Is shared hosting good for blogs?<span class="toggle">+</span>
                 </button>
                 <div class="faq-answer">You can contact support via our Help Center, email, or call. We usually
                     reply
@@ -333,7 +288,6 @@
         </div>
     </div>
 </section>
-
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {

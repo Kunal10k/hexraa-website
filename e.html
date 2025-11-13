@@ -1,364 +1,48 @@
-<html lang="en">
-
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Best Hosting for Students — Deal</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<style>
-  /* paste into style.css */
-  :root {
-    --max-w: 1200px;
-    --bg: #fbfcfd;
-    --muted: #98a0b3;
-    --text: #0b1330;
-    --accent1: #ff8a00;
-    /* orange */
-    --accent2: #ff6b00;
-    /* darker orange */
-    --box-border: #2b3650;
-    /* dark blue/gray */
-  }
-
-  * {
-    box-sizing: border-box
-  }
-
-  html,
-  body {
-    height: 100%;
-  }
-
-  body {
-    margin: 0;
-    font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-    background: var(--bg);
-    color: var(--text);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-
-  .page {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 40px 20px
-  }
-
-  .card {
-    display: flex;
-    gap: 40px;
-    width: 100%;
-    max-width: var(--max-w);
-    background: #fff;
-    border-radius: 14px;
-    padding: 40px;
-    box-shadow: 0 10px 30px rgba(15, 20, 40, 0.06);
-    position: relative;
-    overflow: visible;
-  }
-
-  /* subtle dashed abstract background elements */
-  .card::before,
-  .card::after {
-    content: '';
-    position: absolute;
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    opacity: 0.06;
-    top: 10px;
-    background: repeating-linear-gradient(45deg, #000 0 2px, transparent 2px 8px);
-  }
-
-  .card::before {
-    left: -40px;
-    transform: scale(1.6)
-  }
-
-  .card::after {
-    right: -40px;
-    bottom: -20px;
-    top: auto;
-    transform: scale(1.4)
-  }
-
-  .left {
-    flex: 1;
-    min-width: 320px
-  }
-
-  .right {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center
-  }
-
-  .discount {
-    display: inline-block;
-    color: var(--accent2);
-    font-weight: 600;
-    margin-bottom: 8px
-  }
-
-  .title {
-    font-size: 36px;
-    line-height: 1.05;
-    margin: 6px 0 12px;
-    font-weight: 800;
-    letter-spacing: 0.6px
-  }
-
-  .subtitle {
-    color: var(--muted);
-    margin: 0 0 22px;
-    font-weight: 600
-  }
-
-  /* Countdown */
-  .countdown {
-    display: flex;
-    gap: 12px;
-    margin-bottom: 22px;
-    align-items: end
-  }
-
-  .time-box {
-    width: 78px;
-    border: 2px solid var(--box-border);
-    border-radius: 10px;
-    padding: 10px;
-    background: #fff;
-    text-align: center
-  }
-
-  .time-box .num {
-    font-size: 20px;
-    font-weight: 800
-  }
-
-  .time-box .lbl {
-    font-size: 12px;
-    color: var(--muted);
-    margin-top: 6px
-  }
-
-  /* Features */
-  .features {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px 18px;
-    list-style: none;
-    padding: 0;
-    margin: 0 0 24px
-  }
-
-  .features li {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-weight: 600;
-    color: #10203a
-  }
-
-  .check {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 28px;
-    height: 28px;
-    border-radius: 6px;
-    background: linear-gradient(180deg, var(--accent1), var(--accent2));
-    color: #fff;
-    font-weight: 700
-  }
-
-  /* CTA button */
-  .cta {
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-    padding: 12px 18px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 800;
-    background: linear-gradient(90deg, var(--accent1), var(--accent2));
-    box-shadow: 0 6px 18px rgba(255, 138, 0, 0.18);
-    transition: transform .15s ease, box-shadow .15s ease
-  }
-
-  .cta:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 12px 30px rgba(255, 107, 0, 0.18)
-  }
-
-  .cta .cta-text {
-    letter-spacing: 1px
-  }
-
-  .cta .cta-arrow {
-    display: inline-block;
-    padding: 8px 10px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.08)
-  }
-
-  /* Right illustration */
-  .illustration-wrap {
-    width: 100%;
-    max-width: 420px;
-    display: flex;
-    align-items: center;
-    justify-content: center
-  }
-
-  .illustration {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 12px;
-    box-shadow: 0 12px 40px rgba(16, 32, 58, 0.08)
-  }
-
-  /* Responsive */
-  @media (max-width:860px) {
-    .card {
-      flex-direction: column;
-      padding: 24px
-    }
-
-    .countdown {
-      justify-content: flex-start
-    }
-
-    .time-box {
-      width: 64px
-    }
-
-    .illustration-wrap {
-      max-width: 320px
-    }
-  }
-
-
-  /* small utilities */
-  strong {
-    font-weight: 800
-  }
-</style>
-
-<body>
-  <main class="page">
-    <div class="card">
-      <section class="left">
-        <div class="discount">Up to <strong>67% Off</strong> Web Hosting</div>
-        <h1 class="title">BEST HOSTING FOR STUDENTS</h1>
-        <p class="subtitle">Start, Grow, and Expand Smartly !</p>
-
-
-
-        <!-- Features grid -->
-        <ul class="features">
-          <li><span class="check">✓</span> <span>1GB SSD Disk</span></li>
-          <li><span class="check">✓</span> <span>10GB Bandwidth</span></li>
-          <li><span class="check">✓</span> <span>Email Accounts</span></li>
-          <li><span class="check">✓</span> <span>Control Panel cPanel</span></li>
-        </ul>
-
-        <!-- CTA -->
-        <a class="cta" href="#">
-          <span class="cta-text">VIEW PLAN</span>
-          <span class="cta-arrow">➜</span>
-        </a>
-
-      </section>
-
-      <aside class="right">
-        <!-- Replace src with the real illustration image or vector -->
-        <div class="illustration-wrap">
-          <img src="illustration.jpg" alt="student with laptop" class="illustration">
-        </div>
-
-        <!-- Countdown -->
-        <div class="countdown" id="countdown">
-          <div class="time-box">
-            <div class="num" id="days">00</div>
-            <div class="lbl">Days</div>
-          </div>
-          <div class="time-box">
-            <div class="num" id="hours">00</div>
-            <div class="lbl">Hrs</div>
-          </div>
-          <div class="time-box">
-            <div class="num" id="mins">00</div>
-            <div class="lbl">Mins</div>
-          </div>
-          <div class="time-box">
-            <div class="num" id="secs">00</div>
-            <div class="lbl">Secs</div>
-          </div>
-        </div>
-      </aside>
+<div class="treatment-wrapper">
+  <h3 class="treatment-heading">Popular Surgeries</h3>
+  <div class="treatment-grid">
+    
+    <div class="treatment-box">
+      <div class="treatment-thumb">
+        <img src="https://dsks.co.in/honc/wp-content/uploads/2025/11/GettyImages-1169059199_thumb-732x549-1.avif" alt="Cardiothoracic">
+      </div>
+      <p class="treatment-name">Chest pain, shortness of breath</p>
     </div>
-  </main>
 
-  <script>
-    /* paste into script.js */
+    <div class="treatment-box">
+      <div class="treatment-thumb">
+        <img src="https://dsks.co.in/honc/wp-content/uploads/2025/11/b825d7b1-shutterstock_2087624929-768x512-1.jpeg" alt="Neurosurgery">
+      </div>
+      <p class="treatment-name">Severe headaches, seizures, numbness</p>
+    </div>
 
-    (function () {
-      // target duration from the moment the script runs: 2 days, 10 hours, 46 minutes, 56 seconds
-      const daysAdd = 2;
-      const hoursAdd = 10;
-      const minsAdd = 46;
-      const secsAdd = 56;
+    <div class="treatment-box">
+      <div class="treatment-thumb">
+        <img src="https://dsks.co.in/honc/wp-content/uploads/2025/11/images-13.jpeg" alt="Orthopedic">
+      </div>
+      <p class="treatment-name">Joint pain, fractures, limited mobility</p>
+    </div>
 
-      const now = Date.now();
-      const target = now + ((daysAdd * 24 + hoursAdd) * 3600 + minsAdd * 60 + secsAdd) * 1000;
+    <div class="treatment-box">
+      <div class="treatment-thumb">
+        <img src="https://dsks.co.in/honc/wp-content/uploads/2025/11/images-14.jpeg" alt="General Surgery">
+      </div>
+      <p class="treatment-name">Abdominal pain, swelling, hernia</p>
+    </div>
 
-      const $days = document.getElementById('days');
-      const $hours = document.getElementById('hours');
-      const $mins = document.getElementById('mins');
-      const $secs = document.getElementById('secs');
+    <div class="treatment-box">
+      <div class="treatment-thumb">
+        <img src="https://dsks.co.in/honc/wp-content/uploads/2025/11/images-15.jpeg" alt="Oncologic">
+      </div>
+      <p class="treatment-name">Lumps, unexplained weight loss</p>
+    </div>
 
-      function pad(n) {
-        return String(n).padStart(2, '0')
-      }
+    <div class="treatment-box">
+      <div class="treatment-thumb">
+        <img src="https://dsks.co.in/honc/wp-content/uploads/2025/11/Burns-Plastic-Surgery.jpg" alt="Plastic & Reconstructive">
+      </div>
+      <p class="treatment-name">Cosmetic concerns, injury reconstruction</p>
+    </div>
 
-      function update() {
-        const diff = target - Date.now();
-        if (diff <= 0) {
-          $days.textContent = '00';
-          $hours.textContent = '00';
-          $mins.textContent = '00';
-          $secs.textContent = '00';
-          clearInterval(interval);
-          return;
-        }
-        const s = Math.floor(diff / 1000);
-        const days = Math.floor(s / (24 * 3600));
-        const hours = Math.floor((s % (24 * 3600)) / 3600);
-        const mins = Math.floor((s % 3600) / 60);
-        const secs = s % 60;
-
-        $days.textContent = pad(days);
-        $hours.textContent = pad(hours);
-        $mins.textContent = pad(mins);
-        $secs.textContent = pad(secs);
-      }
-
-      // initialize
-      update();
-      const interval = setInterval(update, 1000);
-    })();
-  </script>
-</body>
-
-</html>
+  </div>
+</div>
