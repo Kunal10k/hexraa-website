@@ -244,7 +244,7 @@ a:hover {
 
 .headline span {
     color: #ff7a00;
-    font-weight: 900;
+    font-weight: 700;
     margin-bottom: 0.5rem;
     text-transform: uppercase;
     font-size: 40px;
@@ -1861,7 +1861,101 @@ span {
 
 /* ***********reseler hsoting ******  */
 
-.core_icon img{
+.core_icon img {
     width: 20%;
     margin-bottom: .6rem;
+}
+
+.core_headline h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #525252;
+    margin: 10px 0 5px 0;
+
+
+}
+
+.core_headline .para {
+    font-weight: 400;
+    font-size: 16px;
+    color: #525252;
+}
+
+/* ******* include_hosting ********** */
+
+.inc_icon_headline {
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.include_wrapper h5 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #4B4B4B;
+
+
+}
+
+.inc_icon_headline img {
+    width: 15%;
+}
+
+.include_wrapper .para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #525252;
+
+}
+
+.include_wrapper hr {
+    background: #525252 !important;
+}
+
+.include_wrapper {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 15px;
+    border-radius: 10px;
+    min-height: 300px;
+}
+
+.best_panerl .para {
+    font-size: 18px;
+    margin-top: 0.5rem;
+}
+
+.bst_panner_wrapper h4 {
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    color: #6E6E6E;
+
+
+}
+
+.bst_panner_wrapper .para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #6E6E6E;
+
+}
+
+.bst_panner_wrapper h6 {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    color: #FB8F40;
+    margin-top: 0.7rem;
+
+
 }

@@ -68,10 +68,153 @@
 </section>
 
 
+<section class="best_panerl global_padding">
+    <div class="container">
+        <h3 class="headline text-center">The <span>Best cPanel Hosting</span> for Resellers</h3>
+        <p class="para m-auto text-center w-75 mb-5">
+
+            Your reseller hosting package comes with <b>cPanel , WHM , ( WHMCSinstallable in 1 click)</b> These
+            management
+            panels make you a real reseller web host.
+        </p>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="bst_panner_wrapper">
+                    <img src="assets/img/reseller-hosting/cpanel_whm.webp" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="bst_panner_wrapper">
+                    <h4 class="text-center">
+                        cPanel, WHM, WHMCS
+                    </h4>
+                    <p class="para">
+                        Your reseller hosting package comes with cPanel, WHM, (WHMCS installable in 1 click). These
+                        management panels make you a real web host:
+                    </p>
+                    <h6>cPanel® Demo | WHM® Demo</h6>
+
+                    <p class="para">
+                        Build your sales site using tools <br>
+                        Manage delivery, billing, support<br>
+                        Give cPanel access to your customers to make them autonomous <br>
+
+                        Your server has the CloudLinux operating system (License included) designed to manage web hosting
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<section class="include_hosting global_padding">
+    <div class="container">
+        <h3 class="text-center headline">Included with every reseller <br><span>web hosting</span></h3>
+        <p class="w-75 m-auto text-center para mb-5">
+            Become a reseller and offer your customers hosting packages with incredible performance and ease of use.
+        </p>
+        <div class="row gy-3">
+            <div class="col-md-4">
+                <div class="include_wrapper">
+                    <div class="inc_icon_headline">
+                        <img src="assets/img/reseller-hosting/cpanel_control.svg" alt="">
+                        <h5>cPanel Control Panel</h5>
+                    </div>
+                    <hr>
+                    <p class="para">
+                        cPanel allows you to manage websites, email addresses, databases, technical specifications (PHP
+                        & other programming languages) in just a few clicks. You can give access to it to your customers
+                        in order to make them autonomous .
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="include_wrapper">
+                    <div class="inc_icon_headline">
+                        <img src="assets/img/reseller-hosting/whm_managment.svg" alt="">
+
+                        <h5>WHM Management Panel</h5>
+                    </div>
+                    <hr>
+                    <p class="para">
+                        WHM (WebHost Manager) is the server administration panel which allows the configuration of
+                        services such as MySQL, Apache, PHP, FTP, mail. This control panel allows you to create your own
+                        web hosting packages for your customers.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="include_wrapper">
+                    <div class="inc_icon_headline">
+                        <img src="assets/img/reseller-hosting/whmcs.svg" alt="">
+
+                        <h5>WHMCS Billing Script</h5>
+                    </div>
+                    <hr>
+                    <p class="para">
+                        WHMCS is a turnkey solution in customer relationship management, billing and support. It also
+                        helps automate the account creation process using the cPanel API. The WHMCS solution can be
+                        installed in 1 click, the license is optional.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="include_wrapper">
+                    <div class="inc_icon_headline">
+                        <img src="assets/img/reseller-hosting/expert_support.svg" alt="">
+
+                        <h5>Expert Support</h5>
+                    </div>
+                    <hr>
+                    <p class="para">
+                        Our Customer Service team, made up exclusively of hosting professionals, is available to you by
+                        telephone, Live chat and e-mail to answer your questions. Completely free, our support will help
+                        you in all your steps.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="include_wrapper">
+                    <div class="inc_icon_headline">
+                        <img src="assets/img/reseller-hosting/security_backup.svg" alt="">
+
+                        <h5>Security and Backups</h5>
+                    </div>
+                    <hr>
+                    <p class="para">
+                        Your site is hosted on high-performance data servers with redundant disks. For even greater
+                        security, several regular backups are carried out. You can request the restoration of a backup
+                        at any time (optional).
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="include_wrapper">
+                    <div class="inc_icon_headline">
+                        <img src="assets/img/reseller-hosting/india_service.svg" alt="">
+                        <h5>Service Made in India</h5>
+                    </div>
+                    <hr>
+                    <p class="para">
+                        Hexraa is an Indian Company. Our offices, servers and teams are in India. With more than 80,000
+                        hosted websites and over 11 years of experience, we will provide you with everything you need to
+                        build your presence on the web.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="core_adv global_padding text-center">
     <div class="container">
-        <h2 class=" headline mb-4">the <span>core advantages</span></h2>
+        <h2 class=" headline mb-5">the <span>core advantages</span></h2>
 
         <div class="row">
             <div class="col-md-3">
