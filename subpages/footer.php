@@ -1,9 +1,9 @@
 <!-- ===== Footer Section ===== -->
-<footer class="footer global_padding pb-3">
+<footer class="footer  pb-0 pb-2">
     <div class="container">
         <div class="row align-items-center mb-5">
             <div class="col-md-7 t_footer">
-                <img src="assets/img/home/footer.png" alt="Support" class="footer-img ">
+                <img src="assets/img/home/talk_to_expert.webp" alt="Support" class="footer-img ">
                 <div>
                     <p class="footer-help-text mb-2">Need help choosing the right plan?<br><span>Our experts are
                             here to help.</span></p>
@@ -97,7 +97,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-
 <script src="assets/js/main.js"></script>
 
 

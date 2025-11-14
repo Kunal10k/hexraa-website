@@ -21,7 +21,8 @@
     --orange-color: #FB8F40;
     --deep_blue: #1E1D4C;
     --banner-top-header: #14183EBF;
-    --gradint: linear-gradient(270deg, rgba(251, 143, 64, 1) 0%, rgba(227, 181, 55, 1) 100%);
+    --gradint: linear-gradient(90deg, #FB8F40 0%, #E3B537 100%);
+    ;
 }
 
 body {
@@ -66,12 +67,12 @@ a:hover {
 /* ============ SECTION STYLING ============ */
 .hosting-section {
     /* background-color: #fff; */
-    padding: 80px 0;
+    padding: 80px 0 100px 0;
     text-align: center;
     position: relative;
     overflow: hidden;
 
-    background-image: url(../img/home/home_hero_bg.png);
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -151,7 +152,7 @@ a:hover {
 /* Button */
 .hosting-section .btn-view {
     background: #FB8F40;
-    background: linear-gradient(270deg, rgba(251, 143, 64, 1) 0%, rgba(227, 181, 55, 1) 100%);
+    background:  linear-gradient(90deg, #FB8F40 0%, #E3B537 100%);
     color: #fff;
     font-weight: 500;
     border: none;
@@ -225,8 +226,10 @@ a:hover {
 
 /* ******************* perfect plnaed ***************  */
 .global_padding {
-    padding: 60px 0;
+    padding: 40px 0;
 }
+
+
 
 .pricing-section {
     text-align: center;
@@ -244,7 +247,7 @@ a:hover {
 
 .headline span {
     color: #ff7a00;
-    font-weight: 700;
+    font-weight: 900;
     margin-bottom: 0.5rem;
     text-transform: uppercase;
     font-size: 40px;
@@ -352,7 +355,16 @@ a:hover {
     position: relative;
     transition: 0.3s;
     z-index: 1;
+
+
+}
+
+.plan:hover {
+
     background: linear-gradient(199.86deg, rgba(199, 196, 255, 0.25098) 1.14%, #FFFFFF 10.91%);
+    transition: 0.4s all ease-in-out;
+
+
 
 }
 
@@ -364,6 +376,7 @@ a:hover {
 
 .plan.popular {
     border: 2px solid #007bff;
+    background: linear-gradient(199.86deg, rgba(199, 196, 255, 0.25098) 1.14%, #FFFFFF 10.91%);
 }
 
 .badge {
@@ -463,8 +476,8 @@ a:hover {
 
 .features {
     text-align: left;
-    font-size: 14px;
-    color: #555;
+    font-size: 15px;
+    color: #4B4B4B;
 }
 
 .features li {
@@ -475,7 +488,7 @@ a:hover {
 
 
 .features li i {
-    color: #555;
+    color: var(--primary-color);
     margin-right: 8px;
 }
 
@@ -700,10 +713,10 @@ a:hover {
 }
 
 /* Testimonial Cards */
-.owl-carousel .testimonial-card {
+.testimonials .owl-carousel .testimonial-card {
     background: #fff;
     border-radius: 12px;
-    box-shadow: 0 6px 18px rgba(20, 30, 60, 0.08);
+    /* box-shadow: 0 6px 18px rgba(20, 30, 60, 0.08); */
     padding: 18px;
     height: 100%;
     display: flex;
@@ -712,6 +725,13 @@ a:hover {
     /* transition: transform 0.25s; */
     border: 2px solid #5555551e;
 }
+
+.testimonials .owl-carousel .owl-item img {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+
 
 
 
@@ -830,6 +850,11 @@ a:hover {
     color: #555;
     font-size: 16px;
     text-align: left;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #525252;
 }
 
 .faq-question .toggle {
@@ -839,11 +864,13 @@ a:hover {
     width: 36px;
     height: 36px;
     border-radius: 8px;
-    /* background: #f8f9ff; */
     transition: transform 0.25s;
-    font-weight: 800;
+    font-weight: 700;
     color: #555;
+    font-size: 20px;
 }
+
+
 
 .faq-answer {
     max-height: 0;
@@ -883,10 +910,14 @@ a:hover {
     text-align: center;
 }
 
-.headline {
+/* .headline {
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 8px;
+} */
+
+.comparison-section .headline {
+    font-weight: 700;
 }
 
 .table-wrapper {
@@ -1429,6 +1460,13 @@ span {
     position: relative;
 }
 
+.hosting-sections_page .col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .hosting-sections_page::after {
 
     position: absolute;
@@ -1926,7 +1964,7 @@ span {
 }
 
 .best_panerl .para {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 0.5rem;
 }
 
@@ -1956,6 +1994,222 @@ span {
     text-align: left;
     color: #FB8F40;
     margin-top: 0.7rem;
+
+
+}
+
+.best_panerl .col-md-7 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.strong_pont_wrapper ul li {
+    display: flex;
+    gap: 10px;
+    align-items: top;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #6E6E6E;
+    padding-bottom: 15px;
+
+}
+
+.strong_pont_wrapper ul i {
+    color: var(--primary-color);
+    padding-top: 0.4rem;
+    font-size: 24px;
+
+}
+
+/* *********** reseller_hosting_plans_with *************  */
+
+
+.reseller_hosting_plans_with .headline {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.reseller_hosting_plans_with .container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .12);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.custom-tabs .nav-link {
+    font-weight: 500;
+    font-size: 17px;
+    color: var(--primary-color);
+    padding: 12px 20px;
+    border: none;
+    position: relative;
+}
+
+.custom-tabs .nav-link.active {
+    color: #003366;
+    background: none;
+    font-weight: 700;
+}
+
+.custom-tabs .nav-link.active::after {
+    content: "";
+    width: 120px;
+    height: 4px;
+    background: #F6762C;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    border-radius: 10px;
+}
+
+.single-feature {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 5px;
+    font-weight: 400;
+    color: #4B4B4B;
+}
+
+.tabs_h6 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    color: #525252;
+    display: flex;
+    justify-content: center;
+
+}
+
+.single-feature i {
+    color: #00B894;
+    font-size: 18px;
+}
+
+/* **************** Price plane ****************  */
+
+
+
+
+
+.plans-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.plan-box {
+    position: relative;
+    border: 2px solid #5555551c;
+    padding: 17px;
+    border-radius: 15px;
+    background: #fff;
+    transition: 0.3s;
+}
+
+.plan-box .plan-title,
+.price,
+.sub-text {
+    text-align: center;
+
+}
+
+.plan-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.pro-active {
+    border-color: #007bff;
+}
+
+.ribbon {
+    position: absolute;
+    top: -2px;
+    left: 28px;
+}
+
+.ribbon i {
+    color: #007bff;
+    font-size: 35px;
+}
+
+.plan-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #6E6E6E;
+
+
+}
+
+.price_plancs .price {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.price_plancs .price span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+}
+
+.sub-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.order-btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background: #FB8F40;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 0;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.order-btn:hover {
+    background: var(--primary-color);
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.features li {
+    margin-bottom: 10px;
+    font-size: 13px;
+    display: flex;
+    align-items: self-start;
+    gap: 8px;
+}
+
+.features i {
+    color: var(--primary-color);
+}
+
+.mini-title {
+    margin: 20px 0 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #4B4B4B;
 
 
 }

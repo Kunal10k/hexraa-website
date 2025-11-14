@@ -62,7 +62,7 @@
         <div class="container">
             <!-- Logo -->
             <a class="navbar-brand" href="#">
-                <img src="assets/img/logo.png" alt="HEXRAA Logo">
+                <img src="assets/img/logo (2).png" alt="HEXRAA Logo">
             </a>
 
             <!-- Toggle button -->
@@ -73,7 +73,7 @@
             <!-- Desktop Menu -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-lg-center">
-                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                   
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Domains</a>

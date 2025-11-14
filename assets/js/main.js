@@ -129,7 +129,7 @@ $(document).ready(function () {
     $owl.owlCarousel({
         loop: true,
         margin: 18,
-        nav: false,
+        nav: true,
         dots: true,
         responsive: {
             0: {
@@ -151,15 +151,29 @@ $(document).ready(function () {
     });
 });
 
-// FAQ toggle (only one open)
-const faqs = document.querySelectorAll('.faq-item');
-faqs.forEach(faq => {
-    const btn = faq.querySelector('.faq-question');
-    btn.addEventListener('click', () => {
-        faqs.forEach(f => {
-            if (f !== faq) f.classList.remove('open');
+
+
+// Select all FAQ items
+const faqItems = document.querySelectorAll('.faq-item');
+
+faqItems.forEach(item => {
+    const question = item.querySelector('.faq-question');
+    const toggleIcon = item.querySelector('.toggle');
+
+    question.addEventListener('click', () => {
+        faqItems.forEach(f => {
+            const fToggle = f.querySelector('.toggle');
+            if (f !== item) {
+                f.classList.remove('open');
+                fToggle.textContent = '+';
+            }
         });
-        faq.classList.toggle('open');
+
+        // Toggle current FAQ
+        item.classList.toggle('open');
+
+        // Update icon
+        toggleIcon.textContent = item.classList.contains('open') ? '−' : '+';
     });
 });
 
@@ -186,4 +200,3 @@ $('.back-to-top').click(function (e) {
         scrollTop: 0
     }, 600);
 });
-

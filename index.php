@@ -6,18 +6,18 @@
 
 <!-- hero section  -->
 
-<section class="hosting-section">
+<section class="hosting-section" style="background-image: url(./assets/img/home/home_hero_bg.webp);">
     <h5>TRUSTED PARTNER FOR ROBUST, SECURE &</h5>
     <h2>AFFORDABLE <span>H</span>OSTING</h2>
     <p>Experience the power of AMD EPYC servers where Innovative <br>technology meets Affordability.</p>
 
     <div class="trust-row">
         <div class="trust-card">
-            <img src="assets/img/home/trasut.png" alt="Trustpilot">
+            <img src="assets/img/home/t.webp" alt="Trustpilot">
             <span>4.5/5 FROM 2500+ REVIEWS</span>
         </div>
         <div class="trust-card">
-            <img src="assets/img/home/google.png" alt="Google">
+            <img src="assets/img/home/g.webp" alt="Google">
             <span>TRUST SCORE 4.9 BASED ON 300+ REVIEWS</span>
         </div>
     </div>
@@ -142,7 +142,7 @@
 
         <div class="features-grid mt-4">
             <div class="feature-box">
-                <img src="assets/img/home/nvme_storage.png" alt="NVMe SSD Storage" />
+                <img src="assets/img/home/nvme_storage.webp" alt="NVMe SSD Storage" />
                 <div class="f_box">
                     <h4><i class="fa-solid fa-database"></i> NVMe SSD Storage</h4>
 
@@ -152,7 +152,7 @@
             </div>
 
             <div class="feature-box">
-                <img src="assets/img/home/99_uptime.png" alt="99% Uptime" />
+                <img src="assets/img/home/99_uptime.webp" alt="99% Uptime" />
                 <div class="f_box">
                     <h4><i class="fa-solid fa-clock"></i> 99% Uptime Guaranteed</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, voluptas quibusdam? Ut
@@ -161,7 +161,7 @@
             </div>
 
             <div class="feature-box">
-                <img src="assets/img/home/secure_server.png" alt="Secure Servers" />
+                <img src="assets/img/home/secure_server.webp" alt="Secure Servers" />
                 <div class="f_box">
                     <h4><i class="fa-solid fa-shield-halved"></i> Secure Servers</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, voluptas quibusdam? Ut
@@ -170,7 +170,7 @@
             </div>
 
             <div class="feature-box">
-                <img src="assets/img/home/automated_backups.png" alt="Automated Backups" />
+                <img src="assets/img/home/automated_backups.webp" alt="Automated Backups" />
                 <div class="f_box">
                     <h4><i class="fa-solid fa-cloud-arrow-up"></i> Automated Backups</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, voluptas quibusdam? Ut
@@ -179,7 +179,7 @@
             </div>
 
             <div class="feature-box">
-                <img src="assets/img/home/wordpress_optimize.png" alt="WordPress Optimized" />
+                <img src="assets/img/home/wordpress_optimize.webp" alt="WordPress Optimized" />
                 <div class="f_box">
                     <h4><i class="fa-brands fa-wordpress"></i> WordPress Optimized</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, voluptas quibusdam? Ut
@@ -188,7 +188,7 @@
             </div>
 
             <div class="feature-box">
-                <img src="assets/img/home/free_site_migration.png" alt="Free Site Migration" />
+                <img src="assets/img/home/free_site_migration.webp" alt="Free Site Migration" />
                 <div class="f_box">
                     <h4><i class="fa-solid fa-globe"></i> Free Site Migration</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, voluptas quibusdam? Ut
@@ -231,7 +231,7 @@
         <div class="ph-wrapper mt-4">
             <!-- Left Illustration -->
             <div class="ph-left">
-                <img src="assets/img/home/hosting_solutions.png" alt="Server Illustration">
+                <img src="assets/img/home/hosting_solutions.webp" alt="Server Illustration">
             </div>
 
             <!-- Right Features -->
@@ -281,7 +281,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="commit_wrapper">
-                        <img src="assets/img/home/c1.png" alt="" class="img-fluid">
+                        <img src="assets/img/home/best_support.webp" alt="" class="img-fluid">
                         <h5>The Saints of Hosting</h5>
                         <p>Our mission is to provide our customers with the best possible care and quality in the
                             industry. We will never sacrifice our morals or cut corners anywhere.</p>
@@ -289,7 +289,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="commit_wrapper">
-                        <img src="assets/img/home/c2.png" alt="" class="img-fluid">
+                        <img src="assets/img/home/premium_equipement.webp" alt="" class="img-fluid">
                         <h5>The Saints of Hosting</h5>
                         <p>The latest generation servers, Intel processors, and enterprise-grade PCIe 4.0 NVMe
                             storage
@@ -298,7 +298,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="commit_wrapper">
-                        <img src="assets/img/home/c3.png" alt="" class="img-fluid">
+                        <img src="assets/img/home/saints_hosting.webp" alt="" class="img-fluid">
                         <h5>The Saints of Hosting</h5>
                         <p>Whenever you need help, our award-winning Linux admins are available 24x7 to assist you.
                         </p>
@@ -343,7 +343,7 @@
 
                 <div class="grid_items fc">
                     <div class="why-center">
-                        <img src="assets/img/home/why_choose_hexraa (1).png" alt="Server Illustration">
+                        <img src="assets/img/home/why_choose_hexraa.webp" alt="Server Illustration">
                     </div>
                 </div>
 
@@ -516,7 +516,7 @@
             <p class="w-50 m-auto para">Fast, reliable, and everywhere you need us.  Our servers span the globe to
                 keep
                 your websites and apps running smoothly with minimal latency and maximum uptime.</p>
-            <img src="assets/img/home/map (2).png" alt="" class="img-fluid mt-3">
+            <img src="assets/img/home/m.webp" alt="" class="img-fluid mt-3">
         </div>
     </section>
 
@@ -586,9 +586,10 @@
                                     </div>
                                 </div>
                                 <div class="avatar">
-                                    <img src="assets/img/home/fg.png" alt="" class="shadow">
+                                    <img src="assets/img/home/fg.png" alt="">
                                 </div>
                             </div>
+                            <hr>
                             <div class="review-text">Amazing experience! The team was professional and the quality
                                 exceeded
                                 expectations. Highly recommend.</div>
@@ -601,63 +602,73 @@
 
                 </div>
 
-                <div class="owl-nav" style="position:absolute; top:6px; left:0; right:0;">
-                    <button class="custom-nav-btn" id="prevBtn">&lt;</button>
-                    <button class="custom-nav-btn" id="nextBtn">&gt;</button>
+                <div class="owl-nav custom-nav" style="position:absolute; top:6px; left:0; right:0;">
+                    <button class="custom-nav-btn" id="prevBtn">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <button class="custom-nav-btn" id="nextBtn">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
                 </div>
+
             </div>
         </div>
     </section>
 
     <!-- FAQ Section -->
+    <!-- FAQ Section -->
     <section class="faq-wrap global_padding">
         <div class="container">
             <div class="faq-header">
-                <h3 class="headline text-center">FREQUENTLY ASKED QUESTIONS</h3>
+                <h3 class="headline text-center mb-4">FREQUENTLY ASKED QUESTIONS</h3>
             </div>
 
-            <div class="faq-grid mt-4">
-                <div class="faq-item">
-                    <button class="faq-question">
-                        What is your return policy? <span class="toggle">+</span>
-                    </button>
-                    <div class="faq-answer">We accept returns within 30 days of purchase. Items must be in original
-                        condition.
-                        Refunds are processed within 7 business days.</div>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="faq-item mb-2">
+                        <button class="faq-question btn btn-link w-100 text-start">
+                            What is your return policy? <span class="toggle">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            We accept returns within 30 days of purchase. Items must be in original condition.
+                            Refunds are processed within 7 business days.
+                        </div>
+                    </div>
+
+                    <div class="faq-item mb-2">
+                        <button class="faq-question btn btn-link w-100 text-start">
+                            Do you ship internationally? <span class="toggle">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            Yes — we ship to many countries worldwide. Shipping costs and delivery times vary by
+                            destination.
+                        </div>
+                    </div>
                 </div>
 
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Do you ship internationally? <span class="toggle">+</span>
-                    </button>
-                    <div class="faq-answer">Yes — we ship to many countries worldwide. Shipping costs and delivery
-                        times
-                        vary by
-                        destination.</div>
-                </div>
+                <div class="col-md-6">
+                    <div class="faq-item mb-2">
+                        <button class="faq-question btn btn-link w-100 text-start">
+                            How long does shipping take? <span class="toggle">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            Standard shipping usually takes 5-10 business days depending on your location.
+                        </div>
+                    </div>
 
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Is my payment secure? <span class="toggle">+</span>
-                    </button>
-                    <div class="faq-answer">We use trusted payment gateways and encryption to protect your payment
-                        details
-                        and
-                        personal information.</div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        How can I contact support? <span class="toggle">+</span>
-                    </button>
-                    <div class="faq-answer">You can contact support via our Help Center, email, or call. We usually
-                        reply
-                        within
-                        24 hours.</div>
+                    <div class="faq-item mb-2">
+                        <button class="faq-question btn btn-link w-100 text-start">
+                            Can I track my order? <span class="toggle">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            Yes, once your order ships, you will receive a tracking number by email.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
 
 
 
