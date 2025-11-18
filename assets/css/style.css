@@ -2217,7 +2217,6 @@ span {
 /* ********* hosting_features_shared*********** */
 
 
-
 .hosting_features_wrapper {
     border-radius: 10px;
     border: 1px solid #50505056;
@@ -2227,7 +2226,7 @@ span {
     justify-content: center;
     padding: 15px;
     margin-top: 1.5rem;
-    height: 190px;
+    height: 155px;
 }
 
 .h_host_header h5 {

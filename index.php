@@ -516,7 +516,7 @@
             <p class="w-50 m-auto para">Fast, reliable, and everywhere you need us.  Our servers span the globe to
                 keep
                 your websites and apps running smoothly with minimal latency and maximum uptime.</p>
-            <img src="assets/img/home/m.webp" alt="" class="img-fluid mt-3">
+            <img src="assets/img/home/map (2).png" alt="" class="img-fluid mt-3">
         </div>
     </section>
 

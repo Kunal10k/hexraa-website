@@ -4,7 +4,8 @@
     --orange-color: #FB8F40;
     --deep_blue: #1E1D4C;
     --banner-top-header: #14183EBF;
-    --gradint:  linear-gradient(90deg, #FB8F40 0%, #E3B537 100%);;
+    --gradint: linear-gradient(90deg, #FB8F40 0%, #E3B537 100%);
+    ;
 }
 
 
@@ -14,13 +15,13 @@
 
 .footer-help-text {
     font-weight: 500;
-    color: #555;
+    color: #525252;
     line-height: 1.4;
     font-size: 17px;
 }
 
 .footer-help-text span {
-    color: #555;
+    color: #525252;
     font-weight: 300;
     font-size: 15px;
     text-align: center;
@@ -41,7 +42,7 @@
 
 .social-icons i {
     font-size: 30px;
-    color: #555;
+    color: #424242;
 }
 
 .payment-icons {
@@ -78,7 +79,7 @@
 .footer-links h6 {
     font-weight: 700;
     margin-bottom: 15px;
-    color: #555;
+    color: #525252;
     font-size: 15px;
 }
 
@@ -92,12 +93,12 @@
 .news_letter h5 {
     font-weight: 700;
     font-size: 24px;
-    color: #555;
+    color: #525252;
 }
 
 .footer-links ul li a {
     text-decoration: none;
-    color: #555;
+    color: #525252;
     font-size: 14px;
     font-weight: 500;
 }
@@ -127,7 +128,7 @@
 }
 
 .footer-logo a img {
-    width: 64%;
+    width: 66%;
 }
 
 .news_letter .para {
@@ -165,12 +166,14 @@
 }
 
 .payment-icons img {
-    width: 45px;
+    width: 60px;
     margin: 5px;
+    aspect-ratio: 1/ 1;
+    object-fit: contain;
 }
 
 .footer-bottom {
-    border-top: 1px solid #eee;
+    /* border-top: 1px solid #eee; */
     padding-top: 15px;
     color: #888;
     font-size: 14px;

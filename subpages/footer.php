@@ -34,10 +34,10 @@
                 </h4>
 
                 <div class="social-icons mt-3">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-x-twitter"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
                 </div>
             </div>
 
@@ -86,7 +86,7 @@
             </div>
         </div>
 
-        <div class="footer-bottom text-center mt-4">
+        <div class="footer-bottom text-center mt-2">
             <p class="copy_right">© 2025 Hexraa. All Rights Reserved.</p>
         </div>
     </div>
