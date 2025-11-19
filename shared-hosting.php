@@ -237,9 +237,12 @@
 
 <section class="hosting_features_shared global_padding">
     <div class="container">
-        <h2 class="headline text-center mb-3">
+        <h4 class="headline text-center mb-3 d-md-block d-none">
             SHARED <span>hosting Features</span>
-        </h2>
+        </h4>
+        <h4 class="headline text-center mb-3 d-md-none d-block">
+            SHARED <span>hosting <br> Features</span>
+        </h4>
         <div class="row mt-4">
             <div class="col-md-6">
                 <div class="hosting_features_wrapper">
@@ -346,7 +349,7 @@
         </h2>
 
         <div class="row mt-4">
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="best_class_wrapper text-center">
                     <h6>Website Backup</h6>
                     <p class="para">
@@ -358,7 +361,7 @@
                     <img src="assets/img/shared-hosting/s.webp" alt="" class="img-fluid">
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="best_wrp_box">
                     <div class="bxt_icon_c">
                         <img src="assets/img/shared-hosting/j2.webp" alt="" class="img-fluid">
