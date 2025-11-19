@@ -229,76 +229,263 @@
 
 
 
+
+
 <section class="reseller_hosting_plans_with py-5">
 
-    <h2 class="text-center mb-4 headline ">WITH ALL RESELLER HOSTING PLANS YOU GET</h2>
-    <div class="container">
+    <h2 class="text-center mb-4 headline">WITH ALL RESELLER HOSTING PLANS YOU GET</h2>
 
+    <div class="container">
 
         <!-- Tabs -->
         <ul class="nav nav-tabs custom-tabs justify-content-center" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="key-tab" data-bs-toggle="tab" data-bs-target="#key"
-                    type="button">KEY FEATURES</button>
+                <button class="nav-link active" id="key-tab" data-bs-toggle="tab" data-bs-target="#key" type="button">
+                    KEY FEATURES
+                </button>
             </li>
+
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="control-tab" data-bs-toggle="tab" data-bs-target="#control"
-                    type="button">CONTROL PANEL FEATURES</button>
+                <button class="nav-link" id="control-tab" data-bs-toggle="tab" data-bs-target="#control" type="button">
+                    CONTROL PANEL FEATURES
+                </button>
             </li>
+
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="server-tab" data-bs-toggle="tab" data-bs-target="#server"
-                    type="button">SERVER FEATURES</button>
+                <button class="nav-link" id="server-tab" data-bs-toggle="tab" data-bs-target="#server" type="button">
+                    SERVER FEATURES
+                </button>
             </li>
+
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="security-tab" data-bs-toggle="tab" data-bs-target="#security"
-                    type="button">SECURITY & EMAIL FEATURES</button>
+                    type="button">
+                    SECURITY & EMAIL FEATURES
+                </button>
             </li>
         </ul>
 
         <!-- Tab Content -->
         <div class="tab-content mt-4">
 
-            <!-- KEY FEATURES -->
+            <!-- ======================= KEY FEATURES ======================= -->
             <div class="tab-pane fade show active" id="key" role="tabpanel">
+
                 <div class="row gy-3">
                     <h6 class="tabs_h6">Key Features</h6>
 
                     <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Custom Branding</div>
-                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Custom Name Servers
-                    </div>
-                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Unlimited Sub-Domains
-                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Custom Name Servers</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Unlimited Sub-Domains</div>
 
-                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Unlimited Addon
-                        Domains</div>
-                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Unlimited SSL
-                        Certificate</div>
-                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Unlimited FTP/SFTP
-                        Accounts</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Unlimited Addon Domains
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Unlimited SSL Certificate
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Unlimited FTP/SFTP Accounts
+                    </div>
 
                     <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Instant Setup</div>
-                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> 30 Day Money Back
-                        Guarantee</div>
-                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> One-Click WordPress
-                        Staging</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> 30 Day Money Back Guarantee
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> One-Click WordPress Staging
+                    </div>
 
-                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Multiple Server
-                        Location</div>
-                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Unlimited Parked
-                        Domains</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Multiple Server Location
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Unlimited Parked Domains
+                    </div>
                     <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Website Builder</div>
+                </div>
+            </div>
+
+
+            <!-- ======================= CONTROL PANEL FEATURES ======================= -->
+            <div class="tab-pane fade" id="control" role="tabpanel">
+                <div class="row gy-3">
+                    <h6 class="tabs_h6">Control Panel Features</h6>
+
+                    <!-- Column Items -->
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Latest cPanel Version</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> FTP Account Management
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Virus Scanner</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Image Manager</div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Apache Handlers Manager
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Hotlink Protection</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> IP Deny Manager</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Index Manager</div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Leech Protect</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Mailman List Manager</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> MIME Types Manager</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Network Tools</div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> PGP/GPG</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Random HTML Generator</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Redirect Manager</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Simple CGI Wrapper</div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Server Status Viewer</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Change Language</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Web Disk</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Password Protection</div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Multiple PHP Support</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Customizable php.ini</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Cron Jobs</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Simple DNS Zone Editor
+                    </div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Advanced DNS Zone Editor
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Install PHP PEAR Packages
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Install Perl Modules</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Backup Manager</div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Git Version Control</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Resource Usage Monitoring
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> User Manager</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Custom Error Page</div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Awstats</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Raw Logs Statistics</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Error Logs</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Bandwidth Stats</div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Disk Usage Viewer</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Style & Preferences
+                        Management</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Latest Visitors</div>
 
                 </div>
             </div>
 
-            <!-- OTHER TABS -->
-            <div class="tab-pane fade" id="control">CONTROL PANEL CONTENT HERE…</div>
-            <div class="tab-pane fade" id="server">SERVER FEATURES CONTENT…</div>
-            <div class="tab-pane fade" id="security">SECURITY FEATURES CONTENT…</div>
+
+            <!-- ======================= SERVER FEATURES ======================= -->
+            <div class="tab-pane fade" id="server" role="tabpanel">
+                <div class="row gy-3">
+                    <h6 class="tabs_h6">Server Features</h6>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Apache Mod_Lsapi</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> HTTP/2</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> MariaDB 10.3.x</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> CGI</div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Javascript</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> SSI</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> ImageMagick 6.9.x</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Zend Optimizer</div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> GD</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Perl 5.10</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Ruby on Rails</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Free SSH & SFTP Access
+                    </div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> WAF Protection</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> OPCache</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Mod_Expires</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Laravel</div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> CodeIgnitor</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> PHP artisan</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Cron Optimization</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> CSS & JS Merging</div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Leverage Browser Caching
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Gzip Compression</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Expires Headers</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Disabling Logging</div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> KeepAlive</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Mod_rewrite for SEO URLs
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> WP-CLI</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Unlimited MySQL Databases
+                    </div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> 1GB MySQL DB Size</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> PHPMyAdmin</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Remote MySQL</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> PHP 7.4, 8.0, 8.1, 8.2
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- ======================= SECURITY & EMAIL FEATURES ======================= -->
+            <div class="tab-pane fade" id="security" role="tabpanel">
+                <div class="row gy-3">
+
+                    <h6 class="tabs_h6">Security Features</h6>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Network Firewall</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Web Application Firewall
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Brute-force Protection
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Exploits & Malware Protect
+                    </div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Malware Scan & Reports
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> cPgaurd Server Security
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Account Isolation</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> CageFS Security</div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> CloudLinux Servers</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Two-Factor Authentication
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Power / Network Redundancy
+                    </div>
+
+                    <h6 class="tabs_h6 mt-4">Email Features</h6>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Unlimited Email Accounts
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Unlimited Email Forwarders
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> 50 MB Attachment Limit
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> SMTP, POP3</div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> SpamAssassin</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Unlimited Mailing Lists
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Catch-all Emails</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Email Aliases</div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> SPF & DKIM Support</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Domain Keys</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> BoxTrapper</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> 100 Email Sends Per Hour
+                    </div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Mobile Compatibility</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Email Calendar</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Webmail in Gmail</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> CSV Import</div>
+
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Unlimited Autoresponders
+                    </div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Webmail (RoundCube)</div>
+                    <div class="col-md-3 single-feature"><i class="bi bi-check2-circle"></i> Outlook / Thunderbird / Mac
+                        Mail</div>
+                </div>
+            </div>
 
         </div>
     </div>
 </section>
+
 
 
 <section class="best_panerl global_padding">
@@ -496,8 +683,8 @@
                     <div class="core_headline">
                         <h5>Cloud Linux OS</h5>
                         <p class="para">
-                            The Cloud Linux OS, is compatible with cPanel, and enables the users with all the effective
-                            resource usage and better server stability.
+                            Cloud Linux ensures stable performance, better resource usage, and improved hosting
+                            reliability.
                         </p>
                     </div>
                 </div>
@@ -511,9 +698,7 @@
                     <div class="core_headline">
                         <h5>cP Guard Firewall</h5>
                         <p class="para">
-                            The hosting service has an inclusion of a security software called cP Guard, which is
-                            installed
-                            in our hosting servers.
+                            cP Guard provides strong protection, malware scanning, and continuous security monitoring.
                         </p>
                     </div>
                 </div>
@@ -527,8 +712,7 @@
                     <div class="core_headline">
                         <h5>LiteSpeed Web Server</h5>
                         <p class="para">
-                            The servers are configured to use LiteSpeed, which showcases the website loads, bandwidth
-                            etc much quickly. Thereby letting multiple concurrencies.
+                            LiteSpeed boosts website speed, reduces load time, and handles high traffic efficiently.
                         </p>
                     </div>
                 </div>
@@ -542,15 +726,17 @@
                     <div class="core_headline">
                         <h5>Free Migrations</h5>
                         <p class="para">
-                            When you are with us, we can further assist you with any type of migrations and further help
-                            you with the technical support required.
+                            We manage smooth migrations, ensuring safe transfers and reliable hosting setup support.
                         </p>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
+
+
 
 
 <div class="money_grenty pt-5">
@@ -632,105 +818,60 @@
 
 
 
-  <section class="faq-wrap global_padding">
-        <div class="container">
-            <div class="faq-header">
-                <h3 class="headline text-center mb-4">FREQUENTLY ASKED QUESTIONS</h3>
-            </div>
+<section class="faq-wrap global_padding">
+    <div class="container">
+        <div class="faq-header">
+            <h3 class="headline text-center mb-4">FREQUENTLY ASKED QUESTIONS</h3>
+        </div>
 
-            <div class="row g-3">
-                <div class="col-md-6">
-                    <div class="faq-item mb-2">
-                        <button class="faq-question btn btn-link w-100 text-start">
-                            What is your return policy? <span class="toggle">+</span>
-                        </button>
-                        <div class="faq-answer">
-                            We accept returns within 30 days of purchase. Items must be in original condition.
-                            Refunds are processed within 7 business days.
-                        </div>
-                    </div>
-
-                    <div class="faq-item mb-2">
-                        <button class="faq-question btn btn-link w-100 text-start">
-                            Do you ship internationally? <span class="toggle">+</span>
-                        </button>
-                        <div class="faq-answer">
-                            Yes — we ship to many countries worldwide. Shipping costs and delivery times vary by
-                            destination.
-                        </div>
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="faq-item mb-2">
+                    <button class="faq-question btn btn-link w-100 text-start">
+                        What is your return policy? <span class="toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        We accept returns within 30 days of purchase. Items must be in original condition.
+                        Refunds are processed within 7 business days.
                     </div>
                 </div>
 
-                <div class="col-md-6">
-                    <div class="faq-item mb-2">
-                        <button class="faq-question btn btn-link w-100 text-start">
-                            How long does shipping take? <span class="toggle">+</span>
-                        </button>
-                        <div class="faq-answer">
-                            Standard shipping usually takes 5-10 business days depending on your location.
-                        </div>
+                <div class="faq-item mb-2">
+                    <button class="faq-question btn btn-link w-100 text-start">
+                        Do you ship internationally? <span class="toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Yes — we ship to many countries worldwide. Shipping costs and delivery times vary by
+                        destination.
                     </div>
+                </div>
+            </div>
 
-                    <div class="faq-item mb-2">
-                        <button class="faq-question btn btn-link w-100 text-start">
-                            Can I track my order? <span class="toggle">+</span>
-                        </button>
-                        <div class="faq-answer">
-                            Yes, once your order ships, you will receive a tracking number by email.
-                        </div>
+            <div class="col-md-6">
+                <div class="faq-item mb-2">
+                    <button class="faq-question btn btn-link w-100 text-start">
+                        How long does shipping take? <span class="toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Standard shipping usually takes 5-10 business days depending on your location.
+                    </div>
+                </div>
+
+                <div class="faq-item mb-2">
+                    <button class="faq-question btn btn-link w-100 text-start">
+                        Can I track my order? <span class="toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Yes, once your order ships, you will receive a tracking number by email.
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        // LocalStorage-based 48 hour countdown
-        let targetDate = localStorage.getItem("targetDate");
-        if (!targetDate) {
-            targetDate = new Date().getTime() + (48 * 60 * 60 * 1000);
-            localStorage.setItem("targetDate", targetDate);
-        } else {
-            targetDate = parseInt(targetDate); // convert to number
-        }
-
-        const daysEl = document.querySelector(".days");
-        const hrsEl = document.querySelector(".hrs");
-        const minsEl = document.querySelector(".mins");
-        const secsEl = document.querySelector(".secs");
-
-        function updateCountdown() {
-            const now = new Date().getTime();
-            const distance = targetDate - now;
-
-            if (distance <= 0) {
-                clearInterval(timer);
-                localStorage.removeItem("targetDate");
-                daysEl.textContent = "00";
-                hrsEl.textContent = "00";
-                minsEl.textContent = "00";
-                secsEl.textContent = "00";
-                return;
-            }
-
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const mins = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            const secs = Math.floor((distance % (1000 * 60)) / 1000);
-
-            daysEl.textContent = String(days).padStart(2, "0");
-            hrsEl.textContent = String(hours).padStart(2, "0");
-            minsEl.textContent = String(mins).padStart(2, "0");
-            secsEl.textContent = String(secs).padStart(2, "0");
-        }
-
-        updateCountdown();
-        const timer = setInterval(updateCountdown, 1000);
-    });
-</script>
 
 
 

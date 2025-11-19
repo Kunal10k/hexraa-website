@@ -273,6 +273,7 @@
         </div>
     </div>
 
+</section>
 
     <section class="our_commitment global_padding text-center">
 
@@ -672,4 +673,4 @@
 
 
 
-    <?php include 'subpages/footer.php'; ?>
+<?php include 'subpages/footer.php'; ?>

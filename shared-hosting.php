@@ -388,6 +388,8 @@
 
 
 
+
+
 <section class="tech-section global_padding text-center">
     <div class="container">
         <h2 class="headline">
@@ -399,59 +401,60 @@
             the perfect choice for your business growth and success.
         </p>
 
-        <!-- Converted to Flexbox Grid with 8 items -->
-        <div class="tech-grid">
+        <!-- OWL CAROUSEL START -->
+        <div class="owl-carousel tech-carousel mt-4">
 
             <div class="hex_box">
                 <div class="hex">
-                    <!-- Placeholder image path updated for fallbacks -->
-                    <img src="assets/img/shared-hosting/c1- (1).webp" alt="BitNinja Security Logo">
-                </div>
-            </div>
-
-            <div class="hex_box h1s ">
-                <div class="hex">
-                    <img src="assets/img/shared-hosting/c1- (2).webp" alt="Litespeed Logo">
-                </div>
-            </div>
-
-            <div class="hex_box">
-                <div class="hex">
-                    <img src="assets/img/shared-hosting/c1- (3).webp" alt="cPanel/cPGUARD Logo">
+                    <img src="assets/img/shared-hosting/c1- (1).webp" alt="">
                 </div>
             </div>
 
             <div class="hex_box h1s">
                 <div class="hex">
-                    <img src="assets/img/shared-hosting/c1- (4).webp" alt="CloudLinux Logo">
+                    <img src="assets/img/shared-hosting/c1- (2).webp" alt="">
                 </div>
             </div>
 
             <div class="hex_box">
                 <div class="hex">
-                    <img src="assets/img/shared-hosting/c1- (5).webp" alt="DirectAdmin Logo">
+                    <img src="assets/img/shared-hosting/c1- (3).webp" alt="">
                 </div>
             </div>
 
             <div class="hex_box h1s">
                 <div class="hex">
-                    <img src="assets/img/shared-hosting/c1- (6).webp" alt="Virtualizor Logo">
+                    <img src="assets/img/shared-hosting/c1- (4).webp" alt="">
                 </div>
             </div>
 
             <div class="hex_box">
                 <div class="hex">
-                    <img src="assets/img/shared-hosting/c1- (7).webp" alt="Softaculous Logo">
+                    <img src="assets/img/shared-hosting/c1- (5).webp" alt="">
                 </div>
             </div>
 
             <div class="hex_box h1s">
                 <div class="hex">
-                    <img src="assets/img/shared-hosting/c1- (8).webp" alt="Let's Encrypt Logo">
+                    <img src="assets/img/shared-hosting/c1- (6).webp" alt="">
+                </div>
+            </div>
+
+            <div class="hex_box">
+                <div class="hex">
+                    <img src="assets/img/shared-hosting/c1- (7).webp" alt="">
+                </div>
+            </div>
+
+            <div class="hex_box h1s">
+                <div class="hex">
+                    <img src="assets/img/shared-hosting/c1- (8).webp" alt="">
                 </div>
             </div>
 
         </div>
+        <!-- OWL CAROUSEL END -->
+
     </div>
 </section>
 
@@ -587,51 +590,6 @@
     </div>
 </section>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        // LocalStorage-based 48 hour countdown
-        let targetDate = localStorage.getItem("targetDate");
-        if (!targetDate) {
-            targetDate = new Date().getTime() + (48 * 60 * 60 * 1000);
-            localStorage.setItem("targetDate", targetDate);
-        } else {
-            targetDate = parseInt(targetDate); // convert to number
-        }
-
-        const daysEl = document.querySelector(".days");
-        const hrsEl = document.querySelector(".hrs");
-        const minsEl = document.querySelector(".mins");
-        const secsEl = document.querySelector(".secs");
-
-        function updateCountdown() {
-            const now = new Date().getTime();
-            const distance = targetDate - now;
-
-            if (distance <= 0) {
-                clearInterval(timer);
-                localStorage.removeItem("targetDate");
-                daysEl.textContent = "00";
-                hrsEl.textContent = "00";
-                minsEl.textContent = "00";
-                secsEl.textContent = "00";
-                return;
-            }
-
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const mins = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            const secs = Math.floor((distance % (1000 * 60)) / 1000);
-
-            daysEl.textContent = String(days).padStart(2, "0");
-            hrsEl.textContent = String(hours).padStart(2, "0");
-            minsEl.textContent = String(mins).padStart(2, "0");
-            secsEl.textContent = String(secs).padStart(2, "0");
-        }
-
-        updateCountdown();
-        const timer = setInterval(updateCountdown, 1000);
-    });
-</script>
 
 
 
@@ -640,3 +598,36 @@
 
 
 <?php include 'subpages/footer.php'; ?>
+
+
+
+<script>
+    $(document).ready(function () {
+        $(".tech-carousel").owlCarousel({
+            loop: true,
+            margin: 20,
+            autoplay: true,
+            autoplayTimeout: 2500,
+            autoplayHoverPause: true,
+            dots: false,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                576: {
+                    items: 3
+                },
+                768: {
+                    items: 4
+                },
+                992: {
+                    items: 5
+                },
+                1200: {
+                    items: 8
+                }
+            }
+        });
+    });
+</script>

@@ -271,13 +271,13 @@
         </div>
 
         <div class="faq-grid mt-4">
-        
 
-      
+
+
 
             <div class="faq-item">
                 <button class="faq-question">
-                   Can I migrate my website to your shared web hosting?<span class="toggle">+</span>
+                    Can I migrate my website to your shared web hosting?<span class="toggle">+</span>
                 </button>
                 <div class="faq-answer">We use trusted payment gateways and encryption to protect your payment
                     details
@@ -286,7 +286,7 @@
             </div>
             <div class="faq-item">
                 <button class="faq-question">
-                   Can I migrate my website to your shared web hosting?<span class="toggle">+</span>
+                    Can I migrate my website to your shared web hosting?<span class="toggle">+</span>
                 </button>
                 <div class="faq-answer">We use trusted payment gateways and encryption to protect your payment
                     details
@@ -295,7 +295,7 @@
             </div>
             <div class="faq-item">
                 <button class="faq-question">
-                   Can I migrate my website to your shared web hosting?<span class="toggle">+</span>
+                    Can I migrate my website to your shared web hosting?<span class="toggle">+</span>
                 </button>
                 <div class="faq-answer">We use trusted payment gateways and encryption to protect your payment
                     details
@@ -314,7 +314,7 @@
             </div>
             <div class="faq-item">
                 <button class="faq-question">
-                 Lorem ipsum dolor set amet?<span class="toggle">+</span>
+                    Lorem ipsum dolor set amet?<span class="toggle">+</span>
                 </button>
                 <div class="faq-answer">You can contact support via our Help Center, email, or call. We usually
                     reply
@@ -323,7 +323,7 @@
             </div>
             <div class="faq-item">
                 <button class="faq-question">
-                   Is shared hosting good for blogs?<span class="toggle">+</span>
+                    Is shared hosting good for blogs?<span class="toggle">+</span>
                 </button>
                 <div class="faq-answer">You can contact support via our Help Center, email, or call. We usually
                     reply
@@ -336,14 +336,20 @@
 
 
 <script>
+    /* ======================================================================
+   7. SECOND COUNTDOWN (ANOTHER VERSION WITH CLASS SELECTORS)
+   ====================================================================== */
+
     document.addEventListener("DOMContentLoaded", function () {
-        // LocalStorage-based 48 hour countdown
+
+        // Get 48-hour countdown from localStorage
         let targetDate = localStorage.getItem("targetDate");
+
         if (!targetDate) {
             targetDate = new Date().getTime() + (48 * 60 * 60 * 1000);
             localStorage.setItem("targetDate", targetDate);
         } else {
-            targetDate = parseInt(targetDate); // convert to number
+            targetDate = parseInt(targetDate); // Convert to number
         }
 
         const daysEl = document.querySelector(".days");
@@ -358,6 +364,7 @@
             if (distance <= 0) {
                 clearInterval(timer);
                 localStorage.removeItem("targetDate");
+
                 daysEl.textContent = "00";
                 hrsEl.textContent = "00";
                 minsEl.textContent = "00";
@@ -380,6 +387,5 @@
         const timer = setInterval(updateCountdown, 1000);
     });
 </script>
-
 
 <?php include 'subpages/footer.php'; ?>

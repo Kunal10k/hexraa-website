@@ -1,12 +1,19 @@
+/* ======================================================================
+   1. COUNTDOWN TIMER (48 HOURS) – SAVED IN LOCALSTORAGE
+   ====================================================================== */
+
+// Select timer display elements
 const daysEl = document.getElementById("days");
 const hoursEl = document.getElementById("hours");
 const minutesEl = document.getElementById("minutes");
 const secondsEl = document.getElementById("seconds");
 
-// Save countdown target in localStorage so it doesn’t reset on refresh
+// Get target date from localStorage so timer doesn’t reset on page refresh
 let targetDate = localStorage.getItem("targetDate");
+
+// If no saved target date → set new 48-hour countdown
 if (!targetDate) {
-    targetDate = new Date().getTime() + (48 * 60 * 60 * 1000); // 48 hours from now
+    targetDate = new Date().getTime() + (48 * 60 * 60 * 1000); // 48 hours added
     localStorage.setItem("targetDate", targetDate);
 }
 
@@ -14,18 +21,21 @@ const timer = setInterval(() => {
     const now = new Date().getTime();
     const distance = targetDate - now;
 
+    // If countdown expires
     if (distance <= 0) {
         clearInterval(timer);
         document.getElementById("countdown").innerHTML = "<b>Expired</b>";
-        localStorage.removeItem("targetDate");
+        localStorage.removeItem("targetDate"); // Reset on next visit
         return;
     }
 
+    // Time calculations
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
     const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+    // Update UI
     daysEl.textContent = days.toString().padStart(2, '0');
     hoursEl.textContent = hours.toString().padStart(2, '0');
     minutesEl.textContent = minutes.toString().padStart(2, '0');
@@ -33,12 +43,16 @@ const timer = setInterval(() => {
 }, 1000);
 
 
-// ****************** perfect planed *********** 
+
+/* ======================================================================
+   2. PRICING TOGGLE (MONTHLY / YEARLY PLAN SWITCH)
+   ====================================================================== */
 
 const monthlyBtn = document.getElementById("monthly");
 const yearlyBtn = document.getElementById("yearly");
 const switchToggle = document.getElementById("switchToggle");
 
+// Pricing data for both modes
 const prices = {
     monthly: {
         plan1: "$0.35/month",
@@ -52,7 +66,7 @@ const prices = {
     },
 };
 
-// Handle monthly button click
+// Monthly Button Handler
 monthlyBtn.addEventListener("click", () => {
     monthlyBtn.classList.add("active");
     yearlyBtn.classList.remove("active");
@@ -60,7 +74,7 @@ monthlyBtn.addEventListener("click", () => {
     updatePrices("monthly");
 });
 
-// Handle yearly button click
+// Yearly Button Handler
 yearlyBtn.addEventListener("click", () => {
     yearlyBtn.classList.add("active");
     monthlyBtn.classList.remove("active");
@@ -68,15 +82,18 @@ yearlyBtn.addEventListener("click", () => {
     updatePrices("yearly");
 });
 
-// Handle toggle switch click
+// Switch Toggle Click Handler
 switchToggle.addEventListener("click", () => {
     switchToggle.classList.toggle("active");
     const isYearly = switchToggle.classList.contains("active");
+
     yearlyBtn.classList.toggle("active", isYearly);
     monthlyBtn.classList.toggle("active", !isYearly);
+
     updatePrices(isYearly ? "yearly" : "monthly");
 });
 
+// Update price values in DOM
 function updatePrices(type) {
     document.getElementById("price1").textContent = prices[type].plan1;
     document.getElementById("price2").textContent = prices[type].plan2;
@@ -85,8 +102,9 @@ function updatePrices(type) {
 
 
 
-
-
+/* ======================================================================
+   3. TRUSTED CAROUSEL (Owl Carousel)
+   ====================================================================== */
 
 $(document).ready(function () {
     $(".trusted-carousel").owlCarousel({
@@ -95,7 +113,6 @@ $(document).ready(function () {
         autoplay: true,
         autoplayTimeout: 2000,
         autoplayHoverPause: true,
-        responsiveClass: true,
         dots: false,
         nav: false,
         responsive: {
@@ -120,12 +137,13 @@ $(document).ready(function () {
 
 
 
-
-
-
+/* ======================================================================
+   4. TESTIMONIALS CAROUSEL (Owl Carousel + Custom Navigation)
+   ====================================================================== */
 
 $(document).ready(function () {
-    var $owl = $('#testimonials-carousel');
+    const $owl = $('#testimonials-carousel');
+
     $owl.owlCarousel({
         loop: true,
         margin: 18,
@@ -143,38 +161,10 @@ $(document).ready(function () {
             }
         }
     });
-    $('#prevBtn').click(function () {
-        $owl.trigger('prev.owl.carousel');
-    });
-    $('#nextBtn').click(function () {
-        $owl.trigger('next.owl.carousel');
-    });
-});
 
-
-
-// Select all FAQ items
-const faqItems = document.querySelectorAll('.faq-item');
-
-faqItems.forEach(item => {
-    const question = item.querySelector('.faq-question');
-    const toggleIcon = item.querySelector('.toggle');
-
-    question.addEventListener('click', () => {
-        faqItems.forEach(f => {
-            const fToggle = f.querySelector('.toggle');
-            if (f !== item) {
-                f.classList.remove('open');
-                fToggle.textContent = '+';
-            }
-        });
-
-        // Toggle current FAQ
-        item.classList.toggle('open');
-
-        // Update icon
-        toggleIcon.textContent = item.classList.contains('open') ? '−' : '+';
-    });
+    // Custom Prev/Next Buttons
+    $('#prevBtn').click(() => $owl.trigger('prev.owl.carousel'));
+    $('#nextBtn').click(() => $owl.trigger('next.owl.carousel'));
 });
 
 
@@ -183,24 +173,24 @@ faqItems.forEach(item => {
 
 
 
+/* ======================================================================
+   6. BACK TO TOP BUTTON
+   ====================================================================== */
 
-
-
+// Show button after scrolling 300px
 $(window).scroll(function () {
-    if ($(this).scrollTop() > 300) {
-        $('.back-to-top').addClass('show');
-    } else {
+    $(this).scrollTop() > 300 ?
+        $('.back-to-top').addClass('show') :
         $('.back-to-top').removeClass('show');
-    }
 });
 
+// Smooth scroll to top
 $('.back-to-top').click(function (e) {
     e.preventDefault();
     $('html, body').animate({
         scrollTop: 0
     }, 600);
 });
-
 
 
 

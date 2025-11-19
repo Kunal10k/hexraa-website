@@ -113,73 +113,55 @@
 </section>
 
 
-
+<!-- FAQ Section -->
 <!-- FAQ Section -->
 <section class="faq-wrap global_padding">
     <div class="container">
         <div class="faq-header">
-            <h3 class="headline text-center">FREQUENTLY ASKED QUESTIONS</h3>
+            <h3 class="headline text-center mb-4">FREQUENTLY ASKED QUESTIONS</h3>
         </div>
 
-        <div class="faq-grid mt-4">
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="faq-item mb-2">
+                    <button class="faq-question btn btn-link w-100 text-start">
+                        What is your return policy? <span class="toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        We accept returns within 30 days of purchase. Items must be in original condition.
+                        Refunds are processed within 7 business days.
+                    </div>
+                </div>
 
-
-
-
-            <div class="faq-item">
-                <button class="faq-question">
-                   What is shared web hosting?<span class="toggle">+</span>
-                </button>
-                <div class="faq-answer">We use trusted payment gateways and encryption to protect your payment
-                    details
-                    and
-                    personal information.</div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">
-                    What security protocol do you follow for your shared hosting?<span class="toggle">+</span>
-                </button>
-                <div class="faq-answer">We use trusted payment gateways and encryption to protect your payment
-                    details
-                    and
-                    personal information.</div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">
-                    Can I migrate my website to your shared web hosting?<span class="toggle">+</span>
-                </button>
-                <div class="faq-answer">We use trusted payment gateways and encryption to protect your payment
-                    details
-                    and
-                    personal information.</div>
+                <div class="faq-item mb-2">
+                    <button class="faq-question btn btn-link w-100 text-start">
+                        Do you ship internationally? <span class="toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Yes — we ship to many countries worldwide. Shipping costs and delivery times vary by
+                        destination.
+                    </div>
+                </div>
             </div>
 
-            <div class="faq-item">
-                <button class="faq-question">
-                   What is a refund policy in shared hosting?<span class="toggle">+</span>
-                </button>
-                <div class="faq-answer">You can contact support via our Help Center, email, or call. We usually
-                    reply
-                    within
-                    24 hours.</div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">
-                  Is shared hosting good for blogs?<span class="toggle">+</span>
-                </button>
-                <div class="faq-answer">You can contact support via our Help Center, email, or call. We usually
-                    reply
-                    within
-                    24 hours.</div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">
-                    Is shared hosting good for blogs?<span class="toggle">+</span>
-                </button>
-                <div class="faq-answer">You can contact support via our Help Center, email, or call. We usually
-                    reply
-                    within
-                    24 hours.</div>
+            <div class="col-md-6">
+                <div class="faq-item mb-2">
+                    <button class="faq-question btn btn-link w-100 text-start">
+                        How long does shipping take? <span class="toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Standard shipping usually takes 5-10 business days depending on your location.
+                    </div>
+                </div>
+
+                <div class="faq-item mb-2">
+                    <button class="faq-question btn btn-link w-100 text-start">
+                        Can I track my order? <span class="toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Yes, once your order ships, you will receive a tracking number by email.
+                    </div>
+                </div>
             </div>
         </div>
     </div>
