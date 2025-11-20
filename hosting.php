@@ -76,12 +76,12 @@
             is a lot wanted on this aggressive world.
         </p>
         <div class="row mt-5">
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="student_web_wrapper">
                     <img src="assets/img/hosting/1.png" alt="" class="img-fluid">
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="student_web_wrapper shadws">
                     <div class="student_planed">
                         <div class="price_tract mt-4 mb-3">
@@ -263,129 +263,57 @@
 
 
 
-<!-- FAQ Section -->
 <section class="faq-wrap global_padding">
     <div class="container">
         <div class="faq-header">
-            <h3 class="headline text-center">FREQUENTLY ASKED QUESTIONS</h3>
+            <h3 class="headline text-center mb-4">FREQUENTLY ASKED QUESTIONS</h3>
         </div>
 
-        <div class="faq-grid mt-4">
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="faq-item mb-2">
+                    <button class="faq-question btn btn-link w-100 text-start">
+                        What is your return policy? <span class="toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        We accept returns within 30 days of purchase. Items must be in original condition.
+                        Refunds are processed within 7 business days.
+                    </div>
+                </div>
 
-
-
-
-            <div class="faq-item">
-                <button class="faq-question">
-                    Can I migrate my website to your shared web hosting?<span class="toggle">+</span>
-                </button>
-                <div class="faq-answer">We use trusted payment gateways and encryption to protect your payment
-                    details
-                    and
-                    personal information.</div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">
-                    Can I migrate my website to your shared web hosting?<span class="toggle">+</span>
-                </button>
-                <div class="faq-answer">We use trusted payment gateways and encryption to protect your payment
-                    details
-                    and
-                    personal information.</div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">
-                    Can I migrate my website to your shared web hosting?<span class="toggle">+</span>
-                </button>
-                <div class="faq-answer">We use trusted payment gateways and encryption to protect your payment
-                    details
-                    and
-                    personal information.</div>
+                <div class="faq-item mb-2">
+                    <button class="faq-question btn btn-link w-100 text-start">
+                        Do you ship internationally? <span class="toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Yes — we ship to many countries worldwide. Shipping costs and delivery times vary by
+                        destination.
+                    </div>
+                </div>
             </div>
 
-            <div class="faq-item">
-                <button class="faq-question">
-                    What is a refund policy in shared hosting?<span class="toggle">+</span>
-                </button>
-                <div class="faq-answer">You can contact support via our Help Center, email, or call. We usually
-                    reply
-                    within
-                    24 hours.</div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">
-                    Lorem ipsum dolor set amet?<span class="toggle">+</span>
-                </button>
-                <div class="faq-answer">You can contact support via our Help Center, email, or call. We usually
-                    reply
-                    within
-                    24 hours.</div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">
-                    Is shared hosting good for blogs?<span class="toggle">+</span>
-                </button>
-                <div class="faq-answer">You can contact support via our Help Center, email, or call. We usually
-                    reply
-                    within
-                    24 hours.</div>
+            <div class="col-md-6">
+                <div class="faq-item mb-2">
+                    <button class="faq-question btn btn-link w-100 text-start">
+                        How long does shipping take? <span class="toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Standard shipping usually takes 5-10 business days depending on your location.
+                    </div>
+                </div>
+
+                <div class="faq-item mb-2">
+                    <button class="faq-question btn btn-link w-100 text-start">
+                        Can I track my order? <span class="toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Yes, once your order ships, you will receive a tracking number by email.
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-
-<script>
-    /* ======================================================================
-   7. SECOND COUNTDOWN (ANOTHER VERSION WITH CLASS SELECTORS)
-   ====================================================================== */
-
-    document.addEventListener("DOMContentLoaded", function () {
-
-        // Get 48-hour countdown from localStorage
-        let targetDate = localStorage.getItem("targetDate");
-
-        if (!targetDate) {
-            targetDate = new Date().getTime() + (48 * 60 * 60 * 1000);
-            localStorage.setItem("targetDate", targetDate);
-        } else {
-            targetDate = parseInt(targetDate); // Convert to number
-        }
-
-        const daysEl = document.querySelector(".days");
-        const hrsEl = document.querySelector(".hrs");
-        const minsEl = document.querySelector(".mins");
-        const secsEl = document.querySelector(".secs");
-
-        function updateCountdown() {
-            const now = new Date().getTime();
-            const distance = targetDate - now;
-
-            if (distance <= 0) {
-                clearInterval(timer);
-                localStorage.removeItem("targetDate");
-
-                daysEl.textContent = "00";
-                hrsEl.textContent = "00";
-                minsEl.textContent = "00";
-                secsEl.textContent = "00";
-                return;
-            }
-
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const mins = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            const secs = Math.floor((distance % (1000 * 60)) / 1000);
-
-            daysEl.textContent = String(days).padStart(2, "0");
-            hrsEl.textContent = String(hours).padStart(2, "0");
-            minsEl.textContent = String(mins).padStart(2, "0");
-            secsEl.textContent = String(secs).padStart(2, "0");
-        }
-
-        updateCountdown();
-        const timer = setInterval(updateCountdown, 1000);
-    });
-</script>
 
 <?php include 'subpages/footer.php'; ?>

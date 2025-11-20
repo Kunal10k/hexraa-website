@@ -265,11 +265,52 @@
         flex-wrap: wrap;
     }
 
+    .reseller_hosting_plans_with .headline {
+        font-size: 25px;
+    }
+
     .inner_headline_hsoting {
         font-weight: 700;
         font-size: 32px;
         line-height: 40px;
         margin-bottom: 0.5rem;
+    }
+
+    .custom-tabs .nav-link {
+        font-size: 16px;
+
+    }
+
+    .strong_pont_wrapper ul li {
+        font-size: 15px;
+
+    }
+
+    .stud_fet_items {
+        align-items: self-start;
+        flex-direction: column;
+    }
+
+    .include_wrapper h5 {
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+
+    .student_sub {
+        font-size: 26px;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .student_web_wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .best_panerl .para {
+        width: 100% !important;
     }
 
     .hosting_features_shared .row {
@@ -582,15 +623,108 @@
         height: 63px;
     }
 
+    .student_web_wrapper {
+        width: auto;
+        margin: 0 auto;
+    }
+
     .hosting_features_shared .col-md-6 {
         margin: 0;
         padding: 0;
+    }
+
+    .rate h2 {
+        font-size: 25px;
+        line-height: 30px;
+
+    }
+
+    .student_web_wrapper {
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    .price_tract {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .price h6 {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 25px;
+        color: #014073;
+        text-align: left;
+    }
+
+    .discount {
+        font-size: 20px;
+
+    }
+
+    .student_items {
+        display: grid;
+        gap: 0;
+        margin-top: 1rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .student_items ul li {
+        font-size: 14px;
+
+    }
+
+    .student_features_grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+
+    }
+
+    .student_headline h4 {
+        font-size: 20px;
+
+    }
+
+    .icon_feature img {
+        height: 55px;
+
+    }
+
+    .money_content p {
+        font-size: 15px;
+
+    }
+
+    .student_buy_now {
+        font-size: 15px;
     }
 
     .inner_headline_hsoting {
         font-size: 25px;
         line-height: 30px;
         margin-bottom: 0.5rem;
+    }
+
+    .student_planed label {
+        font-size: 15px;
+
+    }
+
+    .student_planed .mb-3 {
+        margin-bottom: 0 !important;
+    }
+
+    .student_sub {
+        font-size: 20px;
+        line-height: 25px;
+
+    }
+
+    .student_web_hosting p {
+        font-size: 15px;
+        line-height: 21px;
+        width: 100% !important;
     }
 
     .histing_flex_items {
