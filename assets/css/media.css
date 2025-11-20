@@ -10,6 +10,10 @@
         margin-bottom: 13px;
     }
 
+    /* .legal-header .col-lg-6 {
+        width: 60%;
+    } */
+
     .why_grid {
         grid-template-columns: repeat(2, 1fr);
 
@@ -263,6 +267,11 @@
 
     .plans {
         flex-wrap: wrap;
+    }
+
+    .plan {
+        width: 100%;
+        gap: 20px;
     }
 
     .reseller_hosting_plans_with .headline {
@@ -621,6 +630,65 @@
 @media (max-width: 475px) {
     .f_box {
         height: 63px;
+    }
+
+    .features-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .legal-tabs .nav-link {
+        padding: 9px 4px;
+
+    }
+
+    .h_icon_hostin img {
+        width: 22%;
+    }
+
+    .best_class_wrapper {
+        padding: 15px;
+    }
+
+    .h_host_header h5 {
+        font-size: 18px;
+
+    }
+
+    .best_class_wrapper img {
+        width: 100%;
+    }
+
+    .contact_width {
+        width: 100% !important;
+    }
+
+    .sub-heading {
+        font-size: 14px;
+        color: #fff;
+        margin-top: 12px;
+    }
+
+    .top-heading {
+        color: #fd5000;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .legal-title {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .content-section p {
+        color: #525252;
+        font-size: 16px;
+        line-height: 29px;
+    }
+
+    .content-section h4 {
+        margin: 10px 0;
+        font-size: 22px;
+        line-height: 30px;
     }
 
     .student_web_wrapper {

@@ -951,19 +951,19 @@ tbody tr:nth-child(even) {
 /* ✅ 3D Highlighted HEXRAA Column */
 .comparison-section th:nth-child(2),
 .comparison-section td:nth-child(2) {
-    background: linear-gradient(145deg, #f4faff, #e8f3ff);
+    /* background: linear-gradient(145deg, #f4faff, #e8f3ff); */
 
     font-weight: 600;
     position: relative;
     transition: all 0.3s ease;
-    border-left: 2px solid rgba(0, 0, 0, 0.05);
-    border-right: 2px solid rgba(0, 0, 0, 0.05);
+    border-left: 1px solid rgba(0, 0, 0, 0.155);
+    border-right: 1px solid rgba(0, 0, 0, 0.155);
     box-shadow: 0 6px 15px rgba(0, 108, 255, 0.18);
 }
 
 
 /* Rounded corners top + bottom */
-.comparison-section thead tr th:nth-child(2) {
+/* .comparison-section thead tr th:nth-child(2) {
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
 }
@@ -971,13 +971,22 @@ tbody tr:nth-child(even) {
 .comparison-section tbody tr:last-child td:nth-child(2) {
     border-bottom-left-radius: 14px;
     border-bottom-right-radius: 14px;
-}
+} */
 
-/* Hover lift for 3D effect */
-.comparison-section td:nth-child(2):hover {
+
+/* .comparison-section td:nth-child(2):hover {
     transform: translateY(-3px);
     box-shadow: 0 12px 25px rgba(0, 108, 255, 0.28);
+} */
+
+.table-hover tbody tr:hover {
+    background-color: transparent;
+    /* removes hover color */
+    cursor: default;
+    /* optional, removes pointer */
 }
+
+
 
 /* ✅ Icon Colors */
 .fa-check {
@@ -2332,11 +2341,6 @@ span {
 
 
 
-
-
-
-
-
 .hex {
     width: 145px;
     height: 145px;
@@ -2363,4 +2367,192 @@ span {
 
 .h1s {
     margin-top: 70px;
+}
+
+
+
+
+/* ***************** PRIVACY POLICY PAGE *******************  */
+
+
+
+
+/* ----------------------------
+    HEADER BLUE SECTION
+----------------------------- */
+.legal-header {
+    background: #063970;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.top-heading {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.legal-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.sub-heading {
+    opacity: 0.8;
+    margin-bottom: 25px;
+}
+
+/* ----------------------------
+      TABS DESIGN
+----------------------------- */
+.legal-tabs .nav-link {
+    /* background: #fff; */
+    color: #063970;
+    border-radius: 30px;
+    padding: 13px 14px;
+    font-weight: 500;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    color: #fff;
+    font-size: 15px;
+}
+
+/* .legal-tabs .nav-link:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+} */
+
+.legal-tabs .nav-link.active {
+    background: #000;
+    color: #fff;
+}
+
+/* ----------------------------
+      CONTENT SECTION
+----------------------------- */
+.content-section {
+    padding: 50px 0;
+}
+
+.section-title {
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.updated {
+    color: #444;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.legal-header h4 {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.content-section h4 {
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.content-section p {
+    color: #525252;
+
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.content-section strong {
+    font-weight: 500;
+}
+
+.pricvacy {
+    background-color: #000;
+    /* width: auto; */
+    padding: 5px;
+    border-radius: 50px;
+    display: flex;
+}
+
+.legal-header .nav .nav-item .active {
+    background: #014073;
+}
+
+.sub-heading {
+    color: #fff;
+    margin-top: 15px;
+}
+
+.top-heading {
+    color: #fd5000;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.privacy_box ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+/* ********* Featues Page section *********  */
+
+.features-wrapper {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+/* RIGHT MENU */
+.features-menu {
+    width: 250px;
+    position: sticky;
+    top: 100px;
+}
+
+.features-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.features-menu li {
+    padding: 14px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #eaeaea;
+    transition: 0.3s ease;
+    font-size: 15px;
+}
+
+.features-menu li:hover {
+    background: #f6f6f6;
+}
+
+/* ACTIVE RED */
+.features-menu li.active {
+    color: red;
+    border-right: 3px solid red;
+    background: #ffecec;
+}
+
+/* LEFT CONTENT */
+.features-content {
+    flex: 1;
+    padding: 0 40px;
+}
+
+.scroll-section {
+    padding: 60px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.demo-img {
+    width: 100%;
+    border-radius: 6px;
 }
