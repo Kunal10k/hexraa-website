@@ -196,34 +196,3 @@ $('.back-to-top').click(function (e) {
 
 
 // ************* 
-
-const menuItems = document.querySelectorAll(".features-menu li");
-const sections = document.querySelectorAll(".scroll-section");
-
-// Scroll to section when menu clicked
-menuItems.forEach(item => {
-    item.addEventListener("click", () => {
-        document
-            .getElementById(item.dataset.target)
-            .scrollIntoView({
-                behavior: "smooth"
-            });
-    });
-});
-
-// Highlight menu based on scroll
-window.addEventListener("scroll", () => {
-    let current = "";
-
-    sections.forEach(sec => {
-        const top = sec.offsetTop - 150;
-        if (pageYOffset >= top) current = sec.getAttribute("id");
-    });
-
-    menuItems.forEach(li => {
-        li.classList.remove("active");
-        if (li.dataset.target === current) {
-            li.classList.add("active");
-        }
-    });
-});
